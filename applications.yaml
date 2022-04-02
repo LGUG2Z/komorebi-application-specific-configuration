@@ -1,0 +1,88 @@
+- name: Beeper
+  identifier:
+    kind: exe
+    id: Beeper.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+  float_identifiers: ~
+- name: Discord
+  identifier:
+    kind: exe
+    id: Discord.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+  float_identifiers: ~
+- name: Google Chrome
+  identifier:
+    kind: exe
+    id: chrome.exe
+  options:
+    - tray_and_multi_window
+  float_identifiers: ~
+- name: IntelliJ IDEA
+  identifier:
+    kind: exe
+    id: idea64.exe
+  options:
+    - object_name_change
+    - tray_and_multi_window
+  float_identifiers:
+    - kind: class
+      id: SunAwtDialog
+- name: Microsoft Excel
+  identifier:
+    kind: exe
+    id: EXCEL.EXE
+  options:
+    - border_overflow
+    - layered
+  float_identifiers:
+    - kind: class
+      id: _WwB
+- name: Microsoft Word
+  identifier:
+    kind: exe
+    id: WINWORD.EXE
+  options:
+    - border_overflow
+    - layered
+  float_identifiers:
+    - kind: class
+      id: _WwB
+- name: Mozilla Firefox
+  identifier:
+    kind: exe
+    id: firefox.exe
+  options:
+    - object_name_change
+    - tray_and_multi_window
+  float_identifiers: ~
+- name: PyCharm
+  identifier:
+    kind: exe
+    id: pycharm64.exe
+  options:
+    - object_name_change
+    - tray_and_multi_window
+  float_identifiers:
+    - kind: class
+      id: SunAwtDialog
+- name: Slack
+  identifier:
+    kind: exe
+    id: slack.exe
+  options:
+    - border_overflow
+    - force
+    - tray_and_multi_window
+  float_identifiers: ~
+- name: Spotify
+  identifier:
+    kind: exe
+    id: Spotify.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+  float_identifiers: ~
