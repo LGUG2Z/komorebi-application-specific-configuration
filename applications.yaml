@@ -59,6 +59,13 @@
   options:
     - object_name_change
     - tray_and_multi_window
+- name: Obsidian
+  identifier:
+    kind: exe
+    id: Obsidian.exe
+  options:
+    - border_overflow
+    - force
 - name: PyCharm
   identifier:
     kind: exe
