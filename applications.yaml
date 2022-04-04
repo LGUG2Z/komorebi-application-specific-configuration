@@ -1,4 +1,14 @@
 ---
+- name: AutoHotKey
+  identifier:
+    kind: exe
+    id: AutoHotkeyU64.exe
+  options:
+    - tray_and_multi_window
+  float_identifiers:
+    - kind: title
+      id: Window Spy
+      comment: Target AutoHotKey's Window Spy pop-up
 - name: Beeper
   identifier:
     kind: exe
@@ -6,6 +16,13 @@
   options:
     - border_overflow
     - tray_and_multi_window
+- name: Calculator
+  identifier:
+    kind: title
+    id: Calculator
+  float_identifiers:
+    - kind: title
+      id: Calculator
 - name: Discord
   identifier:
     kind: exe
@@ -41,6 +58,14 @@
     - kind: class
       id: _WwB
       comment: Targets a hidden window spawned by Microsoft Office applications
+- name: Microsoft Teams
+  identifier:
+    kind: exe
+    id: Teams.exe
+  float_identifiers:
+    - kind: title
+      id: Microsoft Teams Notifications
+      comment: Target Teams pop-up notification windows
 - name: Microsoft Word
   identifier:
     kind: exe
@@ -77,6 +102,19 @@
     - kind: class
       id: SunAwtDialog
       comment: Targets JetBrains IDE popups and floating windows
+- name: QuickLook
+  identifier:
+    kind: exe
+    id: QuickLook.exe
+  float_identifiers:
+    - kind: exe
+      id: QuickLook.exe
+- name: RoundedTB
+  identifier:
+    kind: exe
+    id: RoundedTB.exe
+  options:
+    - tray_and_multi_window
 - name: Slack
   identifier:
     kind: exe
@@ -91,4 +129,19 @@
     id: Spotify.exe
   options:
     - border_overflow
+    - tray_and_multi_window
+- name: TouchCursor
+  identifier:
+    kind: exe
+    id: tcconfig.exe
+  options:
+    - tray_and_multi_window
+  float_identifiers:
+    - kind: exe
+      id: tcconfig.exe
+- name: TranslucentTB
+  identifier:
+    kind: exe
+    id: TranslucentTB.exe
+  options:
     - tray_and_multi_window
