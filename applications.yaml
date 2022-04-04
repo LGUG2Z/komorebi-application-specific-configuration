@@ -1,12 +1,14 @@
 ---
-- name: AhkWindowSpy
+- name: AutoHotKey
   identifier:
-    kind: title
-    id: Window Spy
+    kind: exe
+    id: AutoHotkeyU64.exe
+  options:
+    - tray_and_multi_window
   float_identifiers:
     - kind: title
       id: Window Spy
-      comment: "Target AutoHotKey's Window Spy pop-up"
+      comment: Target AutoHotKey's Window Spy pop-up
 - name: Beeper
   identifier:
     kind: exe
