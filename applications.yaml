@@ -1,5 +1,12 @@
 ---
-- name: AutoHotKey
+- name: 1Password
+  identifier:
+    kind: exe
+    id: 1Password.exe
+  float_identifiers:
+    - kind: exe
+      id: 1Password.exe
+- name: AutoHotkey
   identifier:
     kind: exe
     id: AutoHotkeyU64.exe
@@ -8,7 +15,6 @@
   float_identifiers:
     - kind: title
       id: Window Spy
-      comment: Target AutoHotKey's Window Spy pop-up
 - name: Beeper
   identifier:
     kind: exe
@@ -23,6 +29,14 @@
   float_identifiers:
     - kind: title
       id: Calculator
+- name: Credential Manager UI Host
+  identifier:
+    kind: exe
+    id: CredentialUIBroker.exe
+  float_identifiers:
+    - kind: exe
+      id: CredentialUIBroker.exe
+      comment: Targets the Windows popup prompting you for a PIN instead of a password on 1Password etc.
 - name: Discord
   identifier:
     kind: exe
@@ -30,6 +44,25 @@
   options:
     - border_overflow
     - tray_and_multi_window
+- name: Epic Games Launcher
+  identifier:
+    kind: exe
+    id: EpicGamesLauncher.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: GOG Galaxy
+  identifier:
+    kind: exe
+    id: GalaxyClient.exe
+  options:
+    - border_overflow
+    - force
+    - tray_and_multi_window
+  float_identifiers:
+    - kind: class
+      id: Chrome_RenderWidgetHostHWND
+      comment: Targets a hidden window spawned by GOG Galaxy
 - name: Google Chrome
   identifier:
     kind: exe
@@ -84,6 +117,13 @@
   options:
     - object_name_change
     - tray_and_multi_window
+- name: NiceHash Miner
+  identifier:
+    kind: exe
+    id: nhm_app.exe
+  options:
+    - border_overflow
+    - force
 - name: Obsidian
   identifier:
     kind: exe
@@ -101,7 +141,7 @@
   float_identifiers:
     - kind: class
       id: SunAwtDialog
-      comment: Targets JetBrains IDE popups and floating windows
+      comment: Targets JetBrains IDE popups and detached windows
 - name: QuickLook
   identifier:
     kind: exe
@@ -113,6 +153,10 @@
   identifier:
     kind: exe
     id: RoundedTB.exe
+- name: Signal
+  identifier:
+    kind: exe
+    id: signal.exe
   options:
     - tray_and_multi_window
 - name: Slack
@@ -130,6 +174,12 @@
   options:
     - border_overflow
     - tray_and_multi_window
+- name: Steam
+  identifier:
+    kind: class
+    id: vguiPopupWindow
+  options:
+    - border_overflow
 - name: TouchCursor
   identifier:
     kind: exe
@@ -145,3 +195,35 @@
     id: TranslucentTB.exe
   options:
     - tray_and_multi_window
+- name: Windows Explorer
+  identifier:
+    kind: exe
+    id: explorer.exe
+  float_identifiers:
+    - kind: class
+      id: OperationStatusWindow
+      comment: Targets copy/move operation windows
+    - kind: title
+      id: Control Panel
+- name: Zoom
+  identifier:
+    kind: exe
+    id: Zoom.exe
+  float_identifiers:
+    - kind: exe
+      id: Zoom.exe
+- name: qBittorrent
+  identifier:
+    kind: exe
+    id: qbittorrent.exe
+  options:
+    - tray_and_multi_window
+- name: ueli
+  identifier:
+    kind: exe
+    id: ueli.exe
+  options:
+    - tray_and_multi_window
+  float_identifiers:
+    - kind: exe
+      id: ueli.exe
