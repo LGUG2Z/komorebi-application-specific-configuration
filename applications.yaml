@@ -91,6 +91,28 @@
     - kind: class
       id: _WwB
       comment: Targets a hidden window spawned by Microsoft Office applications
+- name: Microsoft Outlook
+  identifier:
+    kind: exe
+    id: OUTLOOK.EXE
+  options:
+    - border_overflow
+    - layered
+  float_identifiers:
+    - kind: class
+      id: _WwB
+      comment: Targets a hidden window spawned by Microsoft Office applications
+- name: Microsoft PowerPoint
+  identifier:
+    kind: exe
+    id: POWERPNT.EXE
+  options:
+    - border_overflow
+    - layered
+  float_identifiers:
+    - kind: class
+      id: _WwB
+      comment: Targets a hidden window spawned by Microsoft Office applications
 - name: Microsoft Teams
   identifier:
     kind: exe
