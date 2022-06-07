@@ -153,6 +153,13 @@
   options:
     - border_overflow
     - force
+- name: Paradox Launcher
+  identifier:
+    kind: exe
+    id: Paradox Launcher.exe
+  float_identifiers:
+    - kind: exe
+      id: Paradox Launcher.exe
 - name: PyCharm
   identifier:
     kind: exe
