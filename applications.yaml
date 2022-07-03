@@ -140,6 +140,10 @@
   options:
     - object_name_change
     - tray_and_multi_window
+  float_identifiers:
+    - kind: class
+      id: MozillaTaskbarPreviewClass
+      comment: Targets invisible windows spawned by Firefox to show tab previews in the taskbar
 - name: NiceHash Miner
   identifier:
     kind: exe
