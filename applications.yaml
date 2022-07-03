@@ -239,6 +239,14 @@
       comment: Targets copy/move operation windows
     - kind: title
       id: Control Panel
+- name: Wox
+  identifier:
+    kind: exe
+    id: Wox.exe
+  float_identifiers:
+    - kind: title
+      id: Hotkey sink
+      comment: Targets a hidden window spawned by Wox
 - name: Zoom
   identifier:
     kind: exe
