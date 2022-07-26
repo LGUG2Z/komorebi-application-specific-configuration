@@ -233,6 +233,12 @@
     id: TranslucentTB.exe
   options:
     - tray_and_multi_window
+- name: Visual Studio Code
+  identifier:
+    kind: exe
+    id: Code.exe
+  options:
+    - border_overflow
 - name: Windows Explorer
   identifier:
     kind: exe
