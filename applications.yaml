@@ -187,6 +187,8 @@
   identifier:
     kind: exe
     id: RoundedTB.exe
+  options:
+    - tray_and_multi_window
 - name: Signal
   identifier:
     kind: exe
