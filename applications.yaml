@@ -44,6 +44,24 @@
   options:
     - border_overflow
     - tray_and_multi_window
+- name: DiscordPTB
+  identifier:
+    kind: exe
+    id: DiscordPTB.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: DiscordCanary
+  identifier:
+    kind: exe
+    id: DiscordCanary.exe
+- name: DiscordDevelopment
+  identifier:
+    kind: exe
+    id: DiscordDeveloper.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
 - name: Epic Games Launcher
   identifier:
     kind: exe
