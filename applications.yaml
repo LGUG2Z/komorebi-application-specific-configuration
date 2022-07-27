@@ -1,3 +1,4 @@
+---
 - name: 1Password
   identifier:
     kind: exe
