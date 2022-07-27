@@ -36,6 +36,13 @@
     - kind: exe
       id: CredentialUIBroker.exe
       comment: Targets the Windows popup prompting you for a PIN instead of a password on 1Password etc.
+- name: Cron
+  identifier:
+    kind: exe
+    id: Cron.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
 - name: Discord
   identifier:
     kind: exe
