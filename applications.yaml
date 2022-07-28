@@ -37,10 +37,38 @@
     - kind: exe
       id: CredentialUIBroker.exe
       comment: Targets the Windows popup prompting you for a PIN instead of a password on 1Password etc.
+- name: Cron
+  identifier:
+    kind: exe
+    id: Cron.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
 - name: Discord
   identifier:
     kind: exe
     id: Discord.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: DiscordCanary
+  identifier:
+    kind: exe
+    id: DiscordCanary.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: DiscordDevelopment
+  identifier:
+    kind: exe
+    id: DiscordDeveloper.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: DiscordPTB
+  identifier:
+    kind: exe
+    id: DiscordPTB.exe
   options:
     - border_overflow
     - tray_and_multi_window
@@ -51,6 +79,12 @@
   options:
     - border_overflow
     - tray_and_multi_window
+- name: Flow Launcher
+  identifier:
+    kind: exe
+    id: Flow.Launcher.exe
+  options:
+    - border_overflow
 - name: GOG Galaxy
   identifier:
     kind: exe
@@ -80,6 +114,41 @@
     - kind: class
       id: SunAwtDialog
       comment: Targets JetBrains IDE popups and floating windows
+- name: Logi Bolt
+  identifier:
+    kind: exe
+    id: LogiBolt.exe
+  float_identifiers:
+    - kind: exe
+      id: LogiBolt.exe
+- name: LogiTune
+  identifier:
+    kind: exe
+    id: LogiTune.exe
+  float_identifiers:
+    - kind: exe
+      id: LogiTune.exe
+  options:
+    - tray_and_multi_window
+- name: Logitech G HUB
+  identifier:
+    kind: exe
+    id: lghub.exe
+  options:
+    - tray_and_multi_window
+    - border_overflow
+- name: Logitech Options
+  identifier:
+    kind: exe
+    id: LogiOptionsUI.exe
+  float_identifiers:
+    - kind: exe
+      id: LogiOptionsUI.exe
+- name: Mica For Everyone
+  identifier:
+    kind: exe
+    id: MicaForEveryone.exe
+  options:
 - name: Microsoft Excel
   identifier:
     kind: exe
@@ -133,6 +202,12 @@
     - kind: class
       id: _WwB
       comment: Targets a hidden window spawned by Microsoft Office applications
+- name: Modern Flyouts
+  identifier:
+    kind: exe
+    id: ModernFlyoutsHost.exe
+  options:
+    - tray_and_multi_window
 - name: Mozilla Firefox
   identifier:
     kind: exe
@@ -187,6 +262,15 @@
   identifier:
     kind: exe
     id: RoundedTB.exe
+  options:
+    - tray_and_multi_window
+- name: ShareX
+  identifier:
+    kind: exe
+    id: ShareX.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
 - name: Signal
   identifier:
     kind: exe
