@@ -263,6 +263,7 @@
     kind: exe
     id: RoundedTB.exe
   options:
+    - border_overflow
     - tray_and_multi_window
 - name: ShareX
   identifier:
