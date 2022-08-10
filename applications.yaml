@@ -1,551 +1,551 @@
----
 - name: 1Password
   identifier:
     kind: exe
     id: 1Password.exe
   float_identifiers:
-    - kind: exe
-      id: 1Password.exe
-- name: AutoHotkey
-  identifier:
-    kind: exe
-    id: AutoHotkeyU64.exe
-  options:
-    - tray_and_multi_window
-  float_identifiers:
-    - kind: title
-      id: Window Spy
-- name: Beeper
-  identifier:
-    kind: exe
-    id: Beeper.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: Calculator
-  identifier:
-    kind: title
-    id: Calculator
-  float_identifiers:
-    - kind: title
-      id: Calculator
-- name: Credential Manager UI Host
-  identifier:
-    kind: exe
-    id: CredentialUIBroker.exe
-  float_identifiers:
-    - kind: exe
-      id: CredentialUIBroker.exe
-      comment: Targets the Windows popup prompting you for a PIN instead of a password on 1Password etc.
-- name: Cron
-  identifier:
-    kind: exe
-    id: Cron.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: Discord
-  identifier:
-    kind: exe
-    id: Discord.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: DiscordCanary
-  identifier:
-    kind: exe
-    id: DiscordCanary.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: DiscordDevelopment
-  identifier:
-    kind: exe
-    id: DiscordDeveloper.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: DiscordPTB
-  identifier:
-    kind: exe
-    id: DiscordPTB.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: Epic Games Launcher
-  identifier:
-    kind: exe
-    id: EpicGamesLauncher.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: Flow Launcher
-  identifier:
-    kind: exe
-    id: Flow.Launcher.exe
-  options:
-    - border_overflow
-- name: GOG Galaxy
-  identifier:
-    kind: exe
-    id: GalaxyClient.exe
-  options:
-    - border_overflow
-    - force
-    - tray_and_multi_window
-  float_identifiers:
-    - kind: class
-      id: Chrome_RenderWidgetHostHWND
-      comment: Targets a hidden window spawned by GOG Galaxy
-- name: Google Chrome
-  identifier:
-    kind: exe
-    id: chrome.exe
-  options:
-    - tray_and_multi_window
-- name: IntelliJ IDEA
-  identifier:
-    kind: exe
-    id: idea64.exe
-  options:
-    - object_name_change
-    - tray_and_multi_window
-  float_identifiers:
-    - kind: class
-      id: SunAwtDialog
-      comment: Targets JetBrains IDE popups and floating windows
-- name: Logi Bolt
-  identifier:
-    kind: exe
-    id: LogiBolt.exe
-  float_identifiers:
-    - kind: exe
-      id: LogiBolt.exe
-- name: LogiTune
-  identifier:
-    kind: exe
-    id: LogiTune.exe
-  float_identifiers:
-    - kind: exe
-      id: LogiTune.exe
-  options:
-    - tray_and_multi_window
-- name: Logitech G HUB
-  identifier:
-    kind: exe
-    id: lghub.exe
-  options:
-    - tray_and_multi_window
-    - border_overflow
-- name: Logitech Options
-  identifier:
-    kind: exe
-    id: LogiOptionsUI.exe
-  float_identifiers:
-    - kind: exe
-      id: LogiOptionsUI.exe
-- name: Mica For Everyone
-  identifier:
-    kind: exe
-    id: MicaForEveryone.exe
-  options:
-- name: Microsoft Excel
-  identifier:
-    kind: exe
-    id: EXCEL.EXE
-  options:
-    - border_overflow
-    - layered
-  float_identifiers:
-    - kind: class
-      id: _WwB
-      comment: Targets a hidden window spawned by Microsoft Office applications
-- name: Microsoft Outlook
-  identifier:
-    kind: exe
-    id: OUTLOOK.EXE
-  options:
-    - border_overflow
-    - layered
-    - tray_and_multi_window
-  float_identifiers:
-    - kind: class
-      id: _WwB
-      comment: Targets a hidden window spawned by Microsoft Office applications
-- name: Microsoft PowerPoint
-  identifier:
-    kind: exe
-    id: POWERPNT.EXE
-  options:
-    - border_overflow
-    - layered
-  float_identifiers:
-    - kind: class
-      id: _WwB
-      comment: Targets a hidden window spawned by Microsoft Office applications
-- name: Microsoft Teams
-  identifier:
-    kind: exe
-    id: Teams.exe
-  float_identifiers:
-    - kind: title
-      id: Microsoft Teams Notifications
-      comment: Target Teams pop-up notification windows
-- name: Microsoft Word
-  identifier:
-    kind: exe
-    id: WINWORD.EXE
-  options:
-    - border_overflow
-    - layered
-  float_identifiers:
-    - kind: class
-      id: _WwB
-      comment: Targets a hidden window spawned by Microsoft Office applications
-- name: Modern Flyouts
-  identifier:
-    kind: exe
-    id: ModernFlyoutsHost.exe
-  options:
-    - tray_and_multi_window
-- name: Mozilla Firefox
-  identifier:
-    kind: exe
-    id: firefox.exe
-  options:
-    - object_name_change
-    - tray_and_multi_window
-  float_identifiers:
-    - kind: class
-      id: MozillaTaskbarPreviewClass
-      comment: Targets invisible windows spawned by Firefox to show tab previews in the taskbar
-- name: NiceHash Miner
-  identifier:
-    kind: exe
-    id: nhm_app.exe
-  options:
-    - border_overflow
-    - force
-- name: Obsidian
-  identifier:
-    kind: exe
-    id: Obsidian.exe
-  options:
-    - border_overflow
-    - force
-- name: Paradox Launcher
-  identifier:
-    kind: exe
-    id: Paradox Launcher.exe
-  float_identifiers:
-    - kind: exe
-      id: Paradox Launcher.exe
-- name: PyCharm
-  identifier:
-    kind: exe
-    id: pycharm64.exe
-  options:
-    - object_name_change
-    - tray_and_multi_window
-  float_identifiers:
-    - kind: class
-      id: SunAwtDialog
-      comment: Targets JetBrains IDE popups and detached windows
-- name: QuickLook
-  identifier:
-    kind: exe
-    id: QuickLook.exe
-  float_identifiers:
-    - kind: exe
-      id: QuickLook.exe
-- name: RoundedTB
-  identifier:
-    kind: exe
-    id: RoundedTB.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: ShareX
-  identifier:
-    kind: exe
-    id: ShareX.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: Signal
-  identifier:
-    kind: exe
-    id: signal.exe
-  options:
-    - tray_and_multi_window
-- name: Slack
-  identifier:
-    kind: exe
-    id: slack.exe
-  options:
-    - border_overflow
-    - force
-    - tray_and_multi_window
-  float_identifiers:
-    - kind: class
-      id: Chrome_RenderWidgetHostHWND
-      comment: Targets a hidden window spawned by Slack
-- name: Spotify
-  identifier:
-    kind: exe
-    id: Spotify.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: Steam
-  identifier:
-    kind: class
-    id: vguiPopupWindow
-  options:
-    - border_overflow
-- name: TouchCursor
-  identifier:
-    kind: exe
-    id: tcconfig.exe
-  options:
-    - tray_and_multi_window
-  float_identifiers:
-    - kind: exe
-      id: tcconfig.exe
-- name: TranslucentTB
-  identifier:
-    kind: exe
-    id: TranslucentTB.exe
-  options:
-    - tray_and_multi_window
-- name: Visual Studio Code
-  identifier:
-    kind: exe
-    id: Code.exe
-  options:
-    - border_overflow
-- name: Windows Explorer
-  identifier:
-    kind: exe
-    id: explorer.exe
-  float_identifiers:
-    - kind: class
-      id: OperationStatusWindow
-      comment: Targets copy/move operation windows
-    - kind: title
-      id: Control Panel
-- name: Wox
-  identifier:
-    kind: exe
-    id: Wox.exe
-  float_identifiers:
-    - kind: title
-      id: Hotkey sink
-      comment: Targets a hidden window spawned by Wox
-- name: Zoom
-  identifier:
-    kind: exe
-    id: Zoom.exe
-  float_identifiers:
-    - kind: exe
-      id: Zoom.exe
-- name: qBittorrent
-  identifier:
-    kind: exe
-    id: qbittorrent.exe
-  options:
-    - tray_and_multi_window
-- name: ueli
-  identifier:
-    kind: exe
-    id: ueli.exe
-  options:
-    - tray_and_multi_window
-  float_identifiers:
-    - kind: exe
-      id: ueli.exe
-- name: Notion Enhanced
-  identifier:
-    kind: exe
-    id: Notion Enhanced.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: ElectronMail
-  identifier:
-    kind: exe
-    id: ElectronMail.exe
-  options:
-    - tray_and_multi_window
-- name: Task Manager
-  identifier:
-    kind: exe
-    id: Taskmgr.exe
-  float_identifiers:
-    - kind: class
-      id: TaskManagerWindow
-- name: Process Hacker
-  identifier:
-    kind: exe
-    id: ProcessHacker.exe
-  float_identifiers:
-    - kind: exe
-      id: ProcessHacker.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: RepoZ
-  identifier:
-    kind: exe
-    id: RepoZ.exe
-  float_identifiers:
-    - kind: exe
-      id: RepoZ.exe
-- name: PowerToys
-  identifier:
-    kind: exe
-    id: PowerToys.exe
-  float_identifiers:
-    - kind: exe
-      id: PowerToys.ColorPickerUI.exe
-      comment: Target color picker dialog
-    - kind: exe
-      id: PowerToys.ImageResizer.exe
-      comment: Target image resizer dialog
-- name: Inno Setup
-  identifier:
-    kind: class
-    id: TApplication
-  float_identifiers:
-    - kind: class
-      id: TApplication
-      comment: Target hidden window spawned by Inno Setup applications
-    - kind: class
-      id: TWizardForm
-      comment: Target Inno Setup installers
-- name: NohBoard
-  identifier:
-    kind: exe
-    id: NohBoard.exe
-  float_identifiers:
-    - kind: exe
-      id: NohBoard.exe
-- name: Windows Console (conhost.exe)
-  identifier:
-    kind: class
-    id: ConsoleWindowClass
-  options:
-    - force
-- name: ProtonVPN
-  identifier:
-    kind: exe
-    id: ProtonVPN.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: Roblox FPS Unlocker
-  identifier:
-    kind: exe
-    id: rbxfpsunlocker.exe
-  options:
-    - tray_and_multi_window
-- name: Telegram
-  identifier:
-    kind: exe
-    id: Telegram.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: Kotatogram
-  identifier:
-    kind: exe
-    id: Kotatogram.exe
-  options:
-    - border_overflow
-    - tray_and_multi_window
-- name: Mailspring
-  identifier:
-    kind: exe
-    id: mailspring.exe
-  options:
-    - tray_and_multi_window
-- name: ONLYOFFICE Editors
-  identifier:
-    kind: class
-    id: DocEditorsWindowClass
-  options:
-    - border_overflow
-    - tray_and_multi_window
+  - kind: exe
+    id: 1Password.exe
 - name: Adobe Creative Cloud
   identifier:
     kind: class
     id: CreativeCloudDesktopWindowClass
   options:
-    - tray_and_multi_window
+  - tray_and_multi_window
+- name: AutoHotkey
+  identifier:
+    kind: exe
+    id: AutoHotkeyU64.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: title
+    id: Window Spy
+- name: Beeper
+  identifier:
+    kind: exe
+    id: Beeper.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
 - name: Bitwarden
   identifier:
     kind: exe
     id: Bitwarden.exe
   options:
-    - tray_and_multi_window
-- name: Google Drive
+  - tray_and_multi_window
+- name: Calculator
+  identifier:
+    kind: title
+    id: Calculator
+  float_identifiers:
+  - kind: title
+    id: Calculator
+- name: Credential Manager UI Host
   identifier:
     kind: exe
-    id: GoogleDriveFS.exe
-  options:
-    - tray_and_multi_window
-- name: SiriKali
+    id: CredentialUIBroker.exe
+  float_identifiers:
+  - kind: exe
+    id: CredentialUIBroker.exe
+    comment: Targets the Windows popup prompting you for a PIN instead of a password
+      on 1Password etc.
+- name: Cron
   identifier:
     kind: exe
-    id: sirikali.exe
+    id: Cron.exe
   options:
-    - tray_and_multi_window
+  - border_overflow
+  - tray_and_multi_window
+- name: Discord
+  identifier:
+    kind: exe
+    id: Discord.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: DiscordCanary
+  identifier:
+    kind: exe
+    id: DiscordCanary.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: DiscordDevelopment
+  identifier:
+    kind: exe
+    id: DiscordDeveloper.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: DiscordPTB
+  identifier:
+    kind: exe
+    id: DiscordPTB.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: ElectronMail
+  identifier:
+    kind: exe
+    id: ElectronMail.exe
+  options:
+  - tray_and_multi_window
 - name: Element
   identifier:
     kind: exe
     id: Element.exe
   options:
-    - tray_and_multi_window
+  - tray_and_multi_window
 - name: ElevenClock
   identifier:
     kind: exe
     id: ElevenClock.exe
   options:
-    - tray_and_multi_window
-- name: OBS Studio (64-bit)
+  - tray_and_multi_window
+- name: Epic Games Launcher
   identifier:
     kind: exe
-    id: obs64.exe
+    id: EpicGamesLauncher.exe
   options:
-    - tray_and_multi_window
-- name: OBS Studio (32-bit)
+  - border_overflow
+  - tray_and_multi_window
+- name: Flow Launcher
   identifier:
     kind: exe
-    id: obs32.exe
+    id: Flow.Launcher.exe
   options:
-    - tray_and_multi_window
-- name: ManyCam
+  - border_overflow
+- name: GOG Galaxy
   identifier:
     kind: exe
-    id: ManyCam.exe
+    id: GalaxyClient.exe
   options:
-    - border_overflow
-    - tray_and_multi_window
-- name: Kleopatra
-  identifier:
-    kind: exe
-    id: kleopatra.exe
-  options:
-    - tray_and_multi_window
-- name: OpenRGB
-  identifier:
-    kind: exe
-    id: OpenRGB.exe
-  options:
-    - tray_and_multi_window
+  - border_overflow
+  - force
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: class
+    id: Chrome_RenderWidgetHostHWND
+    comment: Targets a hidden window spawned by GOG Galaxy
 - name: GoPro Webcam
   identifier:
     kind: class
     id: GoPro Webcam
   options:
-    - tray_and_multi_window
+  - tray_and_multi_window
+- name: Google Chrome
+  identifier:
+    kind: exe
+    id: chrome.exe
+  options:
+  - tray_and_multi_window
+- name: Google Drive
+  identifier:
+    kind: exe
+    id: GoogleDriveFS.exe
+  options:
+  - tray_and_multi_window
+- name: Inno Setup
+  identifier:
+    kind: class
+    id: TApplication
+  float_identifiers:
+  - kind: class
+    id: TApplication
+    comment: Target hidden window spawned by Inno Setup applications
+  - kind: class
+    id: TWizardForm
+    comment: Target Inno Setup installers
+- name: IntelliJ IDEA
+  identifier:
+    kind: exe
+    id: idea64.exe
+  options:
+  - object_name_change
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: class
+    id: SunAwtDialog
+    comment: Targets JetBrains IDE popups and floating windows
+- name: Kleopatra
+  identifier:
+    kind: exe
+    id: kleopatra.exe
+  options:
+  - tray_and_multi_window
+- name: Kotatogram
+  identifier:
+    kind: exe
+    id: Kotatogram.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: Logi Bolt
+  identifier:
+    kind: exe
+    id: LogiBolt.exe
+  float_identifiers:
+  - kind: exe
+    id: LogiBolt.exe
+- name: LogiTune
+  identifier:
+    kind: exe
+    id: LogiTune.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: exe
+    id: LogiTune.exe
+- name: Logitech G HUB
+  identifier:
+    kind: exe
+    id: lghub.exe
+  options:
+  - tray_and_multi_window
+  - border_overflow
+- name: Logitech Options
+  identifier:
+    kind: exe
+    id: LogiOptionsUI.exe
+  float_identifiers:
+  - kind: exe
+    id: LogiOptionsUI.exe
+- name: Mailspring
+  identifier:
+    kind: exe
+    id: mailspring.exe
+  options:
+  - tray_and_multi_window
+- name: ManyCam
+  identifier:
+    kind: exe
+    id: ManyCam.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: Mica For Everyone
+  identifier:
+    kind: exe
+    id: MicaForEveryone.exe
+- name: Microsoft Excel
+  identifier:
+    kind: exe
+    id: EXCEL.EXE
+  options:
+  - border_overflow
+  - layered
+  float_identifiers:
+  - kind: class
+    id: _WwB
+    comment: Targets a hidden window spawned by Microsoft Office applications
+- name: Microsoft Outlook
+  identifier:
+    kind: exe
+    id: OUTLOOK.EXE
+  options:
+  - border_overflow
+  - layered
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: class
+    id: _WwB
+    comment: Targets a hidden window spawned by Microsoft Office applications
+- name: Microsoft PowerPoint
+  identifier:
+    kind: exe
+    id: POWERPNT.EXE
+  options:
+  - border_overflow
+  - layered
+  float_identifiers:
+  - kind: class
+    id: _WwB
+    comment: Targets a hidden window spawned by Microsoft Office applications
+- name: Microsoft Teams
+  identifier:
+    kind: exe
+    id: Teams.exe
+  float_identifiers:
+  - kind: title
+    id: Microsoft Teams Notifications
+    comment: Target Teams pop-up notification windows
+- name: Microsoft Word
+  identifier:
+    kind: exe
+    id: WINWORD.EXE
+  options:
+  - border_overflow
+  - layered
+  float_identifiers:
+  - kind: class
+    id: _WwB
+    comment: Targets a hidden window spawned by Microsoft Office applications
+- name: Modern Flyouts
+  identifier:
+    kind: exe
+    id: ModernFlyoutsHost.exe
+  options:
+  - tray_and_multi_window
+- name: Mozilla Firefox
+  identifier:
+    kind: exe
+    id: firefox.exe
+  options:
+  - object_name_change
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: class
+    id: MozillaTaskbarPreviewClass
+    comment: Targets invisible windows spawned by Firefox to show tab previews in
+      the taskbar
+- name: NiceHash Miner
+  identifier:
+    kind: exe
+    id: nhm_app.exe
+  options:
+  - border_overflow
+  - force
+- name: NohBoard
+  identifier:
+    kind: exe
+    id: NohBoard.exe
+  float_identifiers:
+  - kind: exe
+    id: NohBoard.exe
+- name: Notion Enhanced
+  identifier:
+    kind: exe
+    id: Notion Enhanced.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: OBS Studio (32-bit)
+  identifier:
+    kind: exe
+    id: obs32.exe
+  options:
+  - tray_and_multi_window
+- name: OBS Studio (64-bit)
+  identifier:
+    kind: exe
+    id: obs64.exe
+  options:
+  - tray_and_multi_window
+- name: ONLYOFFICE Editors
+  identifier:
+    kind: class
+    id: DocEditorsWindowClass
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: Obsidian
+  identifier:
+    kind: exe
+    id: Obsidian.exe
+  options:
+  - border_overflow
+  - force
+- name: OpenRGB
+  identifier:
+    kind: exe
+    id: OpenRGB.exe
+  options:
+  - tray_and_multi_window
+- name: Paradox Launcher
+  identifier:
+    kind: exe
+    id: Paradox Launcher.exe
+  float_identifiers:
+  - kind: exe
+    id: Paradox Launcher.exe
+- name: PowerToys
+  identifier:
+    kind: exe
+    id: PowerToys.exe
+  float_identifiers:
+  - kind: exe
+    id: PowerToys.ColorPickerUI.exe
+    comment: Target color picker dialog
+  - kind: exe
+    id: PowerToys.ImageResizer.exe
+    comment: Target image resizer dialog
+- name: Process Hacker
+  identifier:
+    kind: exe
+    id: ProcessHacker.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: exe
+    id: ProcessHacker.exe
+- name: ProtonVPN
+  identifier:
+    kind: exe
+    id: ProtonVPN.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: PyCharm
+  identifier:
+    kind: exe
+    id: pycharm64.exe
+  options:
+  - object_name_change
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: class
+    id: SunAwtDialog
+    comment: Targets JetBrains IDE popups and detached windows
+- name: QuickLook
+  identifier:
+    kind: exe
+    id: QuickLook.exe
+  float_identifiers:
+  - kind: exe
+    id: QuickLook.exe
+- name: RepoZ
+  identifier:
+    kind: exe
+    id: RepoZ.exe
+  float_identifiers:
+  - kind: exe
+    id: RepoZ.exe
+- name: Roblox FPS Unlocker
+  identifier:
+    kind: exe
+    id: rbxfpsunlocker.exe
+  options:
+  - tray_and_multi_window
+- name: RoundedTB
+  identifier:
+    kind: exe
+    id: RoundedTB.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: ShareX
+  identifier:
+    kind: exe
+    id: ShareX.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: Signal
+  identifier:
+    kind: exe
+    id: signal.exe
+  options:
+  - tray_and_multi_window
+- name: SiriKali
+  identifier:
+    kind: exe
+    id: sirikali.exe
+  options:
+  - tray_and_multi_window
+- name: Slack
+  identifier:
+    kind: exe
+    id: slack.exe
+  options:
+  - border_overflow
+  - force
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: class
+    id: Chrome_RenderWidgetHostHWND
+    comment: Targets a hidden window spawned by Slack
+- name: Spotify
+  identifier:
+    kind: exe
+    id: Spotify.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: Steam
+  identifier:
+    kind: class
+    id: vguiPopupWindow
+  options:
+  - border_overflow
+- name: Task Manager
+  identifier:
+    kind: exe
+    id: Taskmgr.exe
+  float_identifiers:
+  - kind: class
+    id: TaskManagerWindow
+- name: Telegram
+  identifier:
+    kind: exe
+    id: Telegram.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+- name: TouchCursor
+  identifier:
+    kind: exe
+    id: tcconfig.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: exe
+    id: tcconfig.exe
+- name: TranslucentTB
+  identifier:
+    kind: exe
+    id: TranslucentTB.exe
+  options:
+  - tray_and_multi_window
+- name: Visual Studio Code
+  identifier:
+    kind: exe
+    id: Code.exe
+  options:
+  - border_overflow
+- name: Windows Console (conhost.exe)
+  identifier:
+    kind: class
+    id: ConsoleWindowClass
+  options:
+  - force
+- name: Windows Explorer
+  identifier:
+    kind: exe
+    id: explorer.exe
+  float_identifiers:
+  - kind: class
+    id: OperationStatusWindow
+    comment: Targets copy/move operation windows
+  - kind: title
+    id: Control Panel
+- name: Wox
+  identifier:
+    kind: exe
+    id: Wox.exe
+  float_identifiers:
+  - kind: title
+    id: Hotkey sink
+    comment: Targets a hidden window spawned by Wox
+- name: Zoom
+  identifier:
+    kind: exe
+    id: Zoom.exe
+  float_identifiers:
+  - kind: exe
+    id: Zoom.exe
+- name: qBittorrent
+  identifier:
+    kind: exe
+    id: qbittorrent.exe
+  options:
+  - tray_and_multi_window
+- name: ueli
+  identifier:
+    kind: exe
+    id: ueli.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: exe
+    id: ueli.exe
