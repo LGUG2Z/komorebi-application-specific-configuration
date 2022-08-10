@@ -455,6 +455,18 @@
   - kind: class
     id: Chrome_RenderWidgetHostHWND
     comment: Targets a hidden window spawned by Slack
+- name: Slack
+  identifier:
+    kind: exe
+    id: slack.exe
+  options:
+  - border_overflow
+  - force
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: class
+    id: Chrome_RenderWidgetHostHWND
+    comment: Targets a hidden window spawned by Slack
 - name: Spotify
   identifier:
     kind: exe
