@@ -364,3 +364,188 @@
   float_identifiers:
     - kind: exe
       id: ueli.exe
+- name: Notion Enhanced
+  identifier:
+    kind: exe
+    id: Notion Enhanced.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: ElectronMail
+  identifier:
+    kind: exe
+    id: ElectronMail.exe
+  options:
+    - tray_and_multi_window
+- name: Task Manager
+  identifier:
+    kind: exe
+    id: Taskmgr.exe
+  float_identifiers:
+    - kind: class
+      id: TaskManagerWindow
+- name: Process Hacker
+  identifier:
+    kind: exe
+    id: ProcessHacker.exe
+  float_identifiers:
+    - kind: exe
+      id: ProcessHacker.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: RepoZ
+  identifier:
+    kind: exe
+    id: RepoZ.exe
+  float_identifiers:
+    - kind: exe
+      id: RepoZ.exe
+- name: PowerToys
+  identifier:
+    kind: exe
+    id: PowerToys.exe
+  float_identifiers:
+    - kind: exe
+      id: PowerToys.ColorPickerUI.exe
+      comment: Target color picker dialog
+    - kind: exe
+      id: PowerToys.ImageResizer.exe
+      comment: Target image resizer dialog
+- name: Inno Setup
+  identifier:
+    kind: class
+    id: TApplication
+  float_identifiers:
+    - kind: class
+      id: TApplication
+      comment: Target hidden window spawned by Inno Setup applications
+    - kind: class
+      id: TWizardForm
+      comment: Target Inno Setup installers
+- name: NohBoard
+  identifier:
+    kind: exe
+    id: NohBoard.exe
+  float_identifiers:
+    - kind: exe
+      id: NohBoard.exe
+- name: Windows Console (conhost.exe)
+  identifier:
+    kind: class
+    id: ConsoleWindowClass
+  options:
+    - force
+- name: ProtonVPN
+  identifier:
+    kind: exe
+    id: ProtonVPN.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: Roblox FPS Unlocker
+  identifier:
+    kind: exe
+    id: rbxfpsunlocker.exe
+  options:
+    - tray_and_multi_window
+- name: Telegram
+  identifier:
+    kind: exe
+    id: Telegram.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: Kotatogram
+  identifier:
+    kind: exe
+    id: Kotatogram.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: Mailspring
+  identifier:
+    kind: exe
+    id: mailspring.exe
+  options:
+    - tray_and_multi_window
+- name: ONLYOFFICE Editors
+  identifier:
+    kind: class
+    id: DocEditorsWindowClass
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: Adobe Creative Cloud
+  identifier:
+    kind: class
+    id: CreativeCloudDesktopWindowClass
+  options:
+    - tray_and_multi_window
+- name: Bitwarden
+  identifier:
+    kind: exe
+    id: Bitwarden.exe
+  options:
+    - tray_and_multi_window
+- name: Google Drive
+  identifier:
+    kind: exe
+    id: GoogleDriveFS.exe
+  options:
+    - tray_and_multi_window
+- name: SiriKali
+  identifier:
+    kind: exe
+    id: sirikali.exe
+  options:
+    - tray_and_multi_window
+- name: Element
+  identifier:
+    kind: exe
+    id: Element.exe
+  options:
+    - tray_and_multi_window
+- name: ElevenClock
+  identifier:
+    kind: exe
+    id: ElevenClock.exe
+  options:
+    - tray_and_multi_window
+- name: OBS Studio (64-bit)
+  identifier:
+    kind: exe
+    id: obs64.exe
+  options:
+    - tray_and_multi_window
+- name: OBS Studio (32-bit)
+  identifier:
+    kind: exe
+    id: obs32.exe
+  options:
+    - tray_and_multi_window
+- name: ManyCam
+  identifier:
+    kind: exe
+    id: ManyCam.exe
+  options:
+    - border_overflow
+    - tray_and_multi_window
+- name: Kleopatra
+  identifier:
+    kind: exe
+    id: kleopatra.exe
+  options:
+    - tray_and_multi_window
+- name: OpenRGB
+  identifier:
+    kind: exe
+    id: OpenRGB.exe
+  options:
+    - tray_and_multi_window
+- name: GoPro Webcam
+  identifier:
+    kind: class
+    id: GoPro Webcam
+  options:
+    - tray_and_multi_window
