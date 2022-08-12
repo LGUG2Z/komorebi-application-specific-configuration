@@ -531,6 +531,14 @@
     comment: Targets copy/move operation windows
   - kind: title
     id: Control Panel
+- name: Windows Installer
+  identifier:
+    kind: exe
+    id: msiexec.exe
+  float_identifiers:
+  - kind: class
+    id: MsiDialogCloseClass
+    comment: Targets MSI Installers
 - name: Wox
   identifier:
     kind: exe
