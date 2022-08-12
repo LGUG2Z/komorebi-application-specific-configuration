@@ -298,6 +298,12 @@
     id: MozillaTaskbarPreviewClass
     comment: Targets invisible windows spawned by Firefox to show tab previews in
       the taskbar
+- name: NVIDIA GeForce Experience
+  identifier:
+    kind: exe
+    id: NVIDIA GeForce Experience.exe
+  options:
+  - border_overflow
 - name: NiceHash Miner
   identifier:
     kind: exe
