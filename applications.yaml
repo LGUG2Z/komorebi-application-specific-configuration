@@ -427,6 +427,13 @@
   identifier:
     kind: exe
     id: RoundedTB.exe
+  float_identifiers:
+  - kind: exe
+    id: RoundedTB.exe
+- name: RoundedTB
+  identifier:
+    kind: exe
+    id: RoundedTB.exe
   options:
   - border_overflow
   - tray_and_multi_window
@@ -509,6 +516,13 @@
   float_identifiers:
   - kind: exe
     id: tcconfig.exe
+- name: TranslucentTB
+  identifier:
+    kind: exe
+    id: TranslucentTB.exe
+  float_identifiers:
+  - kind: exe
+    id: TranslucentTB.exe
 - name: TranslucentTB
   identifier:
     kind: exe
