@@ -529,6 +529,13 @@
     id: TranslucentTB.exe
   options:
   - tray_and_multi_window
+- name: Unreal Editor
+  identifier:
+    kind: exe
+    id: UnrealEditor.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
 - name: Visual Studio Code
   identifier:
     kind: exe
