@@ -493,6 +493,13 @@
     id: vguiPopupWindow
   options:
   - border_overflow
+- name: SystemSettings
+  identifier:
+    kind: exe
+    id: SystemSettings.exe
+  float_identifiers:
+  - kind: class
+    id: Shell_Dialog
 - name: Task Manager
   identifier:
     kind: exe
