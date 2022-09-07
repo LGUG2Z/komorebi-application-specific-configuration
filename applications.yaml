@@ -573,6 +573,12 @@
   - kind: class
     id: MsiDialogCloseClass
     comment: Targets MSI Installers
+- name: WingetUI
+  identifier:
+    kind: exe
+    id: WingetUI.exe
+  options:
+  - tray_and_multi_window
 - name: Wox
   identifier:
     kind: exe
