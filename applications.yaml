@@ -11,6 +11,13 @@
     id: CreativeCloudDesktopWindowClass
   options:
   - tray_and_multi_window
+- name: ArmCord
+  identifier:
+    kind: exe
+    id: ArmCord.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
 - name: AutoHotkey
   identifier:
     kind: exe
