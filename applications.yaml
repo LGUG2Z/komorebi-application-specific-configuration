@@ -80,7 +80,7 @@
 - name: DiscordDevelopment
   identifier:
     kind: exe
-    id: DiscordDeveloper.exe
+    id: DiscordDevelopment.exe
   options:
   - border_overflow
   - tray_and_multi_window
