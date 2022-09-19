@@ -487,6 +487,12 @@
   - kind: class
     id: Chrome_RenderWidgetHostHWND
     comment: Targets a hidden window spawned by Slack
+- name: SoulseekQt
+  identifier:
+    kind: exe
+    id: SoulseekQt.exe
+  options:
+  - tray_and_multi_window
 - name: Spotify
   identifier:
     kind: exe
