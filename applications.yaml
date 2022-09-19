@@ -607,6 +607,13 @@
   float_identifiers:
   - kind: exe
     id: Zoom.exe
+- name: paint.net
+  identifier:
+    kind: exe
+    id: paintdotnet.exe
+  float_identifiers:
+  - kind: exe
+    id: paintdotnet.exe
 - name: qBittorrent
   identifier:
     kind: exe
