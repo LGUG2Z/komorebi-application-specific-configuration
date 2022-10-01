@@ -586,6 +586,12 @@
     id: WingetUI.exe
   options:
   - tray_and_multi_window
+- name: WingetUI
+  identifier:
+    kind: exe
+    id: wingetui.exe
+  options:
+  - tray_and_multi_window
 - name: Wox
   identifier:
     kind: exe
