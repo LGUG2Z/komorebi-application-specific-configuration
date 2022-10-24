@@ -562,6 +562,12 @@
     id: Code.exe
   options:
   - border_overflow
+- name: WebTorrent Desktop
+  identifier:
+    kind: exe
+    id: WebTorrent.exe
+  options:
+  - tray_and_multi_window
 - name: Windows Console (conhost.exe)
   identifier:
     kind: class
