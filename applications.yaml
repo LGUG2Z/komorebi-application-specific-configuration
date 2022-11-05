@@ -54,8 +54,7 @@
   float_identifiers:
   - kind: exe
     id: CredentialUIBroker.exe
-    comment: Targets the Windows popup prompting you for a PIN instead of a password
-      on 1Password etc.
+    comment: Targets the Windows popup prompting you for a PIN instead of a password on 1Password etc.
 - name: Cron
   identifier:
     kind: exe
@@ -109,6 +108,13 @@
     id: ElevenClock.exe
   options:
   - tray_and_multi_window
+- name: Elgato Control Center
+  identifier:
+    kind: exe
+    id: ControlCenter.exe
+  float_identifiers:
+  - kind: exe
+    id: ControlCenter.exe
 - name: Epic Games Launcher
   identifier:
     kind: exe
@@ -309,8 +315,7 @@
   float_identifiers:
   - kind: class
     id: MozillaTaskbarPreviewClass
-    comment: Targets invisible windows spawned by Firefox to show tab previews in
-      the taskbar
+    comment: Targets invisible windows spawned by Firefox to show tab previews in the taskbar
 - name: NVIDIA GeForce Experience
   identifier:
     kind: exe
