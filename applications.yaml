@@ -108,6 +108,13 @@
     id: ElevenClock.exe
   options:
   - tray_and_multi_window
+- name: Elgato Camera Hub
+  identifier:
+    kind: exe
+    id: Camera Hub.exe
+  float_identifiers:
+  - kind: exe
+    id: Camera Hub.exe
 - name: Elgato Control Center
   identifier:
     kind: exe
@@ -115,6 +122,13 @@
   float_identifiers:
   - kind: exe
     id: ControlCenter.exe
+- name: Elgato Wave Link
+  identifier:
+    kind: exe
+    id: WaveLink.exe
+  float_identifiers:
+  - kind: exe
+    id: WaveLink.exe
 - name: Epic Games Launcher
   identifier:
     kind: exe
