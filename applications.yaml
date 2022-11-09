@@ -644,12 +644,6 @@
   float_identifiers:
   - kind: exe
     id: Zoom.exe
-- name: mpv
-  identifier:
-    kind: class
-    id: mpv
-  options:
-  - tray_and_multi_window
 - name: mpv.net
   identifier:
     kind: exe
