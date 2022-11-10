@@ -201,6 +201,13 @@
   - kind: class
     id: SunAwtDialog
     comment: Targets JetBrains IDE popups and floating windows
+- name: Itch.io
+  identifier:
+    kind: exe
+    id: itch.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
 - name: Kleopatra
   identifier:
     kind: exe
