@@ -680,6 +680,13 @@
   float_identifiers:
   - kind: exe
     id: paintdotnet.exe
+- name: pinentry
+  identifier:
+    kind: exe
+    id: pinentry.exe
+  float_identifiers:
+  - kind: exe
+    id: pinentry.exe
 - name: qBittorrent
   identifier:
     kind: exe
