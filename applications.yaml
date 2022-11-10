@@ -603,10 +603,7 @@
     kind: exe
     id: devenv.exe
   options:
-  - force
-  float_identifiers:
-  - kind: class
-    id: GenericPane
+  - object_name_change
 - name: Visual Studio Code
   identifier:
     kind: exe
