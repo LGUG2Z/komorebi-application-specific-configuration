@@ -161,6 +161,14 @@
     id: GoPro Webcam
   options:
   - tray_and_multi_window
+- name: Godot Manager
+  identifier:
+    kind: exe
+    id: GodotManager.exe
+  options:
+  - border_overflow
+  - force
+  - object_name_change
 - name: Google Chrome
   identifier:
     kind: exe
