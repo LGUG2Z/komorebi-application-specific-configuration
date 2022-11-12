@@ -54,8 +54,7 @@
   float_identifiers:
   - kind: exe
     id: CredentialUIBroker.exe
-    comment: Targets the Windows popup prompting you for a PIN instead of a password
-      on 1Password etc.
+    comment: Targets the Windows popup prompting you for a PIN instead of a password on 1Password etc.
 - name: Cron
   identifier:
     kind: exe
@@ -345,8 +344,7 @@
   float_identifiers:
   - kind: class
     id: MozillaTaskbarPreviewClass
-    comment: Targets invisible windows spawned by Firefox to show tab previews in
-      the taskbar
+    comment: Targets invisible windows spawned by Firefox to show tab previews in the taskbar
 - name: NVIDIA GeForce Experience
   identifier:
     kind: exe
@@ -660,6 +658,12 @@
   - kind: title
     id: Hotkey sink
     comment: Targets a hidden window spawned by Wox
+- name: XAMPP Control Panel
+  identifier:
+    kind: class
+    id: TfMain
+  options:
+  - tray_and_multi_window
 - name: Zoom
   identifier:
     kind: exe
