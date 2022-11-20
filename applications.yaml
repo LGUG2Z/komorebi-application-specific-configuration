@@ -40,6 +40,13 @@
     id: Bitwarden.exe
   options:
   - tray_and_multi_window
+- name: Bloxstrap
+  identifier:
+    kind: exe
+    id: Bloxstrap.exe
+  float_identifiers:
+  - kind: exe
+    id: Bloxstrap.exe
 - name: Calculator
   identifier:
     kind: title
