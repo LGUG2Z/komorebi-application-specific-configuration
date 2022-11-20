@@ -427,7 +427,6 @@
     kind: exe
     id: ProcessHacker.exe
   options:
-  - border_overflow
   - tray_and_multi_window
   float_identifiers:
   - kind: exe
@@ -546,6 +545,15 @@
     id: vguiPopupWindow
   options:
   - border_overflow
+- name: System Informer
+  identifier:
+    kind: exe
+    id: SystemInformer.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: exe
+    id: SystemInformer.exe
 - name: SystemSettings
   identifier:
     kind: exe
