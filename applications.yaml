@@ -686,8 +686,8 @@
     comment: Targets a hidden window spawned by Wox
 - name: XAMPP Control Panel
   identifier:
-    kind: class
-    id: TfMain
+    kind: exe
+    id: xampp-control.exe
   options:
   - tray_and_multi_window
 - name: Zoom
