@@ -69,6 +69,17 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: Delphi applications
+  identifier:
+    kind: class
+    id: TApplication
+  float_identifiers:
+  - kind: class
+    id: TApplication
+    comment: Target hidden window spawned by Delphi applications
+  - kind: class
+    id: TWizardForm
+    comment: Target Inno Setup installers
 - name: Discord
   identifier:
     kind: exe
@@ -193,17 +204,6 @@
     id: Houdoku.exe
   options:
   - border_overflow
-- name: Inno Setup
-  identifier:
-    kind: class
-    id: TApplication
-  float_identifiers:
-  - kind: class
-    id: TApplication
-    comment: Target hidden window spawned by Inno Setup applications
-  - kind: class
-    id: TWizardForm
-    comment: Target Inno Setup installers
 - name: IntelliJ IDEA
   identifier:
     kind: exe
@@ -533,6 +533,17 @@
   - kind: class
     id: Chrome_RenderWidgetHostHWND
     comment: Targets a hidden window spawned by Slack
+- name: Smart Install Maker
+  identifier:
+    kind: exe
+    id: SIM.exe
+  float_identifiers:
+  - kind: class
+    id: obj_App
+    comment: Target hidden window spawned by installer
+  - kind: class
+    id: obj_Form
+    comment: Target installer
 - name: SoulseekQt
   identifier:
     kind: exe
