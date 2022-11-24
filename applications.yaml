@@ -11,6 +11,12 @@
     id: CreativeCloudDesktopWindowClass
   options:
   - tray_and_multi_window
+- name: Adobe Photoshop
+  identifier:
+    kind: class
+    id: Photoshop
+  options:
+  - border_overflow
 - name: ArmCord
   identifier:
     kind: exe
