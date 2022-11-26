@@ -326,6 +326,8 @@
   identifier:
     kind: exe
     id: Teams.exe
+  options:
+  - border_overflow
   float_identifiers:
   - kind: title
     id: Microsoft Teams Notifications
