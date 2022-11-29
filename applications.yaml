@@ -330,8 +330,11 @@
   - border_overflow
   float_identifiers:
   - kind: title
-    id: Microsoft Teams Notifications
+    id: Microsoft Teams Notification
     comment: Target Teams pop-up notification windows
+  - kind: title
+    id: Microsoft Teams Call
+    comment: Target Teams call in progress windows
 - name: Microsoft Word
   identifier:
     kind: exe
