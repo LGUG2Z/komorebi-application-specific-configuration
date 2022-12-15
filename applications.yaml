@@ -228,6 +228,13 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: Keyviz
+  identifier:
+    kind: exe
+    id: keyviz.exe
+  float_identifiers:
+  - kind: exe
+    id: keyviz.exe
 - name: Kleopatra
   identifier:
     kind: exe
