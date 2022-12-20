@@ -318,6 +318,13 @@
   - kind: class
     id: _WwB
     comment: Targets a hidden window spawned by Microsoft Office applications
+- name: Microsoft PC Manager
+  identifier:
+    kind: exe
+    id: MSPCManager.exe
+  float_identifiers:
+  - kind: exe
+    id: MSPCManager.exe
 - name: Microsoft PowerPoint
   identifier:
     kind: exe
