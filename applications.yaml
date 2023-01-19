@@ -588,6 +588,12 @@
     id: vguiPopupWindow
   options:
   - border_overflow
+- name: Stremio
+  identifier:
+    kind: exe
+    id: stremio.exe
+  options:
+  - tray_and_multi_window
 - name: System Informer
   identifier:
     kind: exe
