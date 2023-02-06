@@ -248,6 +248,12 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: LocalSend
+  identifier:
+    kind: exe
+    id: localsend_app.exe
+  options:
+  - tray_and_multi_window
 - name: Logi Bolt
   identifier:
     kind: exe
