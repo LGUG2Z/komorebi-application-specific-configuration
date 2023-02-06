@@ -682,6 +682,13 @@
     id: Code.exe
   options:
   - border_overflow
+- name: Voice.ai
+  identifier:
+    kind: exe
+    id: VoiceAI.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
 - name: WebTorrent Desktop
   identifier:
     kind: exe
