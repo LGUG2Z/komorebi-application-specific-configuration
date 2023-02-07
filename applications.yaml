@@ -716,9 +716,8 @@
     kind: exe
     id: msiexec.exe
   float_identifiers:
-  - kind: class
-    id: MsiDialogCloseClass
-    comment: Targets MSI Installers
+  - kind: exe
+    id: msiexec.exe
 - name: WingetUI
   identifier:
     kind: exe
