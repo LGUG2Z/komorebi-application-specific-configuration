@@ -539,6 +539,13 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: Sideloadly
+  identifier:
+    kind: exe
+    id: sideloadly.exe
+  float_identifiers:
+  - kind: exe
+    id: sideloadly.exe
 - name: Signal
   identifier:
     kind: exe
