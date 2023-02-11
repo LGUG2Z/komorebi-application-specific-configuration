@@ -793,3 +793,9 @@
   float_identifiers:
   - kind: exe
     id: ueli.exe
+- name: VRCX
+  identifier:
+    kind: exe
+    id: VRCX.exe
+  options:
+  - tray_and_multi_window
