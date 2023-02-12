@@ -5,6 +5,17 @@
   float_identifiers:
   - kind: exe
     id: 1Password.exe
+- name: Ableton Live
+  identifier:
+    kind: class
+    id: Ableton Live Window Class
+  float_identifiers:
+  - kind: class
+    id: AbletonVstPlugClass
+    comment: Targets VST2 windows
+  - kind: class
+    id: Vst3PlugWindow
+    comment: Targets VST3 windows
 - name: Adobe Creative Cloud
   identifier:
     kind: class
