@@ -688,6 +688,12 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: VRCX
+  identifier:
+    kind: exe
+    id: VRCX.exe
+  options:
+  - tray_and_multi_window
 - name: Visual Studio
   identifier:
     kind: exe
@@ -804,9 +810,3 @@
   float_identifiers:
   - kind: exe
     id: ueli.exe
-- name: VRCX
-  identifier:
-    kind: exe
-    id: VRCX.exe
-  options:
-  - tray_and_multi_window
