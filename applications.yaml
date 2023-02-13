@@ -460,6 +460,12 @@
   float_identifiers:
   - kind: exe
     id: Paradox Launcher.exe
+- name: Plexamp
+  identifier:
+    kind: exe
+    id: Plexamp.exe
+  options:
+  - border_overflow
 - name: PowerToys
   identifier:
     kind: exe
