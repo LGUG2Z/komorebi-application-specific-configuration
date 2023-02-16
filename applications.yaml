@@ -504,6 +504,12 @@
   - kind: class
     id: SunAwtDialog
     comment: Targets JetBrains IDE popups and detached windows
+- name: QtScrcpy
+  identifier:
+    kind: exe
+    id: QtScrcpy.exe
+  options:
+  - tray_and_multi_window
 - name: QuickLook
   identifier:
     kind: exe
