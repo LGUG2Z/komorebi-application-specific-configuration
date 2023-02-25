@@ -137,6 +137,13 @@
     id: Element.exe
   options:
   - tray_and_multi_window
+- name: Elephicon
+  identifier:
+    kind: exe
+    id: Elephicon.exe
+  float_identifiers:
+  - kind: exe
+    id: Elephicon.exe
 - name: ElevenClock
   identifier:
     kind: exe
