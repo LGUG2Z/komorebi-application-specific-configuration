@@ -125,6 +125,13 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: Dropbox
+  identifier:
+    kind: exe
+    id: Dropbox.exe
+  float_identifiers:
+  - kind: exe
+    id: Dropbox.exe
 - name: ElectronMail
   identifier:
     kind: exe
