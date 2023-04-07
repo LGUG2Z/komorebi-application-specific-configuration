@@ -836,11 +836,11 @@
   float_identifiers:
   - kind: exe
     id: ueli.exe
-- name: Winzip (64-bit)
+- name: WinZip (64-bit)
   identifier:
     kind: exe
     id: winzip64.exe
-- name: Winzip (32-bit)
+- name: WinZip (32-bit)
   identifier:
     kind: exe
     id: winzip32.exe
