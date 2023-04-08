@@ -840,7 +840,13 @@
   identifier:
     kind: exe
     id: winzip64.exe
+  float_identifiers:
+  - kind: exe
+    id: winzip64.exe
 - name: WinZip (32-bit)
   identifier:
     kind: exe
+    id: winzip32.exe
+  float_identifiers:
+  - kind: exe
     id: winzip32.exe
