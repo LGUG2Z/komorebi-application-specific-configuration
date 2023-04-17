@@ -227,8 +227,9 @@
   identifier:
     kind: exe
     id: GoogleDriveFS.exe
-  options:
-  - tray_and_multi_window
+  float_identifiers:
+  - kind: exe
+    id: GoogleDriveFS.exe
 - name: Houdoku
   identifier:
     kind: exe
