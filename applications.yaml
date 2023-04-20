@@ -415,6 +415,12 @@
     id: NVIDIA GeForce Experience.exe
   options:
   - border_overflow
+- name: NZXT CAM
+  identifier:
+    kind: exe
+    id: NZXT CAM.exe
+  options:
+  - tray_and_multi_window
 - name: NiceHash Miner
   identifier:
     kind: exe
