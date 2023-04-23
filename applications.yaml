@@ -692,6 +692,13 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: TickTick
+  identifier:
+    kind: exe
+    id: TickTick.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
 - name: TouchCursor
   identifier:
     kind: exe
