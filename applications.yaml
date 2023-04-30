@@ -656,6 +656,13 @@
     id: vguiPopupWindow
   options:
   - border_overflow
+- name: Steam Beta
+  identifier:
+    kind: class
+    id: SDL_app
+  options:
+  - border_overflow
+  - tray_and_multi_window
 - name: Stremio
   identifier:
     kind: exe
