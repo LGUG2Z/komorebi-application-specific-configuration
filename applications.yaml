@@ -28,6 +28,12 @@
     id: Photoshop
   options:
   - border_overflow
+- name: Akiflow
+  identifier:
+    kind: exe
+    id: Akiflow.exe
+  options:
+  - tray_and_multi_window
 - name: ArmCord
   identifier:
     kind: exe
