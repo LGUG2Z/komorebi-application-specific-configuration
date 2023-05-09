@@ -734,6 +734,12 @@
     id: TranslucentTB.exe
   options:
   - tray_and_multi_window
+- name: Unity Hub
+  identifier:
+    kind: exe
+    id: Unity Hub.exe
+  options:
+  - tray_and_multi_window
 - name: Unreal Editor
   identifier:
     kind: exe
