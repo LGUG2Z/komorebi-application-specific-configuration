@@ -474,6 +474,13 @@
   options:
   - border_overflow
   - force
+- name: OneDrive
+  identifier:
+    kind: exe
+    id: OneDrive.exe
+  float_identifiers:
+  - kind: class
+    id: OneDriveReactNativeWin32WindowClass
 - name: OpenRGB
   identifier:
     kind: exe
