@@ -778,6 +778,12 @@
     id: Code.exe
   options:
   - border_overflow
+- name: Visual Studio Code - Insiders
+  identifier:
+    kind: exe
+    id: Code - Insiders.exe
+  options:
+  - border_overflow
 - name: Voice.ai
   identifier:
     kind: exe
