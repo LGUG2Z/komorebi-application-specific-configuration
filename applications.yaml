@@ -34,6 +34,12 @@
     id: Akiflow.exe
   options:
   - tray_and_multi_window
+- name: Android Studio
+  identifier:
+    kind: exe
+    id: studio64.exe
+  options:
+  - object_name_change
 - name: ArmCord
   identifier:
     kind: exe
