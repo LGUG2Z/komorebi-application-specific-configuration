@@ -517,6 +517,9 @@
   - kind: exe
     id: PowerToys.ImageResizer.exe
     comment: Target image resizer dialog
+  - kind: exe
+    id: PowerToys.Peek.UI.exe
+    comment: Target Peek popup
 - name: Process Hacker
   identifier:
     kind: exe
