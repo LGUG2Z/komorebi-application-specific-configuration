@@ -630,7 +630,6 @@
     id: Slack.exe
   options:
   - border_overflow
-  - force
   - tray_and_multi_window
   float_identifiers:
   - kind: class
@@ -642,7 +641,6 @@
     id: slack.exe
   options:
   - border_overflow
-  - force
   - tray_and_multi_window
   float_identifiers:
   - kind: class
