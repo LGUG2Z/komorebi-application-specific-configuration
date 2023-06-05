@@ -28,6 +28,15 @@
     id: Photoshop
   options:
   - border_overflow
+- name: Affinity Photo 2
+  identifier:
+    kind: title
+    id: Affinity Photo 2
+  options:
+  - force
+  float_identifiers:
+  - kind: exe
+    id: Photo.exe
 - name: Akiflow
   identifier:
     kind: exe
