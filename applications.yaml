@@ -144,6 +144,12 @@
   float_identifiers:
   - kind: exe
     id: Dropbox.exe
+- name: DS4Windows
+  identifier:
+    kind: exe
+    id: DS4Windows.exe
+  options:
+  - tray_and_multi_window
 - name: ElectronMail
   identifier:
     kind: exe
