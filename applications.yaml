@@ -107,6 +107,12 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: DS4Windows
+  identifier:
+    kind: exe
+    id: DS4Windows.exe
+  options:
+  - tray_and_multi_window
 - name: Delphi applications
   identifier:
     kind: class
