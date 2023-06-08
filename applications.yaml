@@ -709,7 +709,6 @@
     id: notificationtoasts_
     comment: Target notification toast popups
 - name: Steam Beta - float_rule
-    comment: Comment the next section out if you want all Steam windows to tile
   identifier:
     kind: title
     id: Steam
