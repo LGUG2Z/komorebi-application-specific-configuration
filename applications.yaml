@@ -633,6 +633,12 @@
     id: Signal.exe
   options:
   - tray_and_multi_window
+- name: Signal
+  identifier:
+    kind: exe
+    id: signal.exe
+  options:
+  - tray_and_multi_window
 - name: SiriKali
   identifier:
     kind: exe
@@ -698,7 +704,12 @@
   options:
   - border_overflow
   - tray_and_multi_window
+  float_identifiers:
+  - kind: title
+    id: notificationtoasts_
+    comment: Target notification toast popups
 - name: Steam Beta - float_rule
+    comment: Comment the next section out if you want all Steam windows to tile
   identifier:
     kind: title
     id: Steam
