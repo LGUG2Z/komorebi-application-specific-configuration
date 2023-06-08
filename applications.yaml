@@ -693,11 +693,15 @@
   - border_overflow
 - name: Steam Beta
   identifier:
-    kind: class
-    id: SDL_app
+    kind: title
+    id: Steam
   options:
+  - force
   - border_overflow
   - tray_and_multi_window
+  float_identifiers:
+  - kind: exe
+    id: steamwebhelper.exe
 - name: Stremio
   identifier:
     kind: exe
