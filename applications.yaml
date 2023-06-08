@@ -698,7 +698,7 @@
   options:
   - border_overflow
   - tray_and_multi_window
-- name: Steam Beta - floating rules
+- name: Steam Beta - float_rule
   identifier:
     kind: title
     id: Steam
