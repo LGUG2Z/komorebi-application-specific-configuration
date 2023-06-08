@@ -698,6 +698,10 @@
   options:
   - border_overflow
   - tray_and_multi_window
+  float_identifiers:
+  - kind: title
+    id: notificationtoasts_
+    comment: Target notification toast popups
 - name: Stremio
   identifier:
     kind: exe
