@@ -630,7 +630,7 @@
 - name: Signal
   identifier:
     kind: exe
-    id: signal.exe
+    id: Signal.exe
   options:
   - tray_and_multi_window
 - name: SiriKali
