@@ -152,6 +152,12 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: Docker Desktop
+  identifier:
+    kind: exe
+    id: Docker Desktop.exe
+  options:
+  - border_overflow
 - name: Dropbox
   identifier:
     kind: exe
