@@ -521,6 +521,17 @@
   float_identifiers:
   - kind: exe
     id: Paradox Launcher.exe
+- name: Playnite
+  identifier:
+    kind: exe
+    id: Playnite.DesktopApp.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: exe
+    id: Playnite.FullscreenApp.exe
+    comment: Target fullscreen app
 - name: Plexamp
   identifier:
     kind: exe
