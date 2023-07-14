@@ -260,6 +260,8 @@
   identifier:
     kind: Exe
     id: GoogleDriveFS.exe
+  options:
+  - tray_and_multi_window
   float_identifiers:
   - kind: Exe
     id: GoogleDriveFS.exe
