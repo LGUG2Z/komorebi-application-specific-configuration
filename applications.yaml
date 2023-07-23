@@ -49,6 +49,12 @@
     id: studio64.exe
   options:
   - object_name_change
+- name: Anki
+  identifier:
+    kind: Exe
+    id: anki.exe
+  options:
+  - tray_and_multi_window
 - name: ArmCord
   identifier:
     kind: Exe
