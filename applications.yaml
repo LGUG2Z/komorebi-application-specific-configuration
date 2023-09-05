@@ -16,6 +16,12 @@
   - kind: Class
     id: Vst3PlugWindow
     comment: Targets VST3 windows
+- name: AdiIRC
+  identifier:
+    kind: class
+    id: AdiIRC
+  options:
+  - tray_and_multi_window
 - name: Adobe Creative Cloud
   identifier:
     kind: Class
