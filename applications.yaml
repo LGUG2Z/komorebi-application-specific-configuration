@@ -21,6 +21,7 @@
     kind: class
     id: AdiIRC
   options:
+  - border_overflow
   - tray_and_multi_window
 - name: Adobe Creative Cloud
   identifier:
