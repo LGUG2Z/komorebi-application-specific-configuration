@@ -98,6 +98,12 @@
   float_identifiers:
   - kind: Title
     id: Calculator
+- name: Clementine
+  identifier:
+    kind: Exe
+    id: clementine.exe
+  options:
+  - tray_and_multi_window
 - name: Credential Manager UI Host
   identifier:
     kind: Exe
