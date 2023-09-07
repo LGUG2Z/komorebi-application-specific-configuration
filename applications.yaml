@@ -924,6 +924,12 @@
   float_identifiers:
   - kind: Exe
     id: Zoom.exe
+- name: mpv
+  identifier:
+    kind: class
+    id: mpv
+  options:
+  - object_name_change
 - name: mpv.net
   identifier:
     kind: Exe
