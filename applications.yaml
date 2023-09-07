@@ -926,7 +926,7 @@
     id: Zoom.exe
 - name: mpv
   identifier:
-    kind: class
+    kind: Class
     id: mpv
   options:
   - object_name_change
