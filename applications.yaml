@@ -891,6 +891,14 @@
   float_identifiers:
   - kind: Exe
     id: msiexec.exe
+- name: Windows Subsystem for Android
+  identifier:
+    kind: Exe
+    id: WsaClient.exe
+  float_identifiers:
+  - kind: Class
+    id: android(splash)
+    comment: Targets splash/startup screen
 - name: WingetUI
   identifier:
     kind: Exe
