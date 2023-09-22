@@ -540,7 +540,6 @@
     id: obs64.exe
   options:
   - tray_and_multi_window
-  float_identifiers:
 - name: ONLYOFFICE Editors
   identifier:
     kind: Class
