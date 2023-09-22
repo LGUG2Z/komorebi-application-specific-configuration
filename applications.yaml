@@ -105,7 +105,7 @@
     kind: Exe
     id: Clash Verge.exe
   options:
-    - border_overflow
+  - border_overflow
   - tray_and_multi_window
 - name: Clementine
   identifier:
@@ -505,6 +505,12 @@
   identifier:
     kind: Exe
     id: NZXT CAM.exe
+  options:
+  - tray_and_multi_window
+- name: NetEase Cloud Music
+  identifier:
+    kind: Exe
+    id: cloudmusic.exe
   options:
   - tray_and_multi_window
 - name: NiceHash Miner
@@ -1038,9 +1044,3 @@
   float_identifiers:
   - kind: Exe
     id: ueli.exe
-- name: NetEase Cloud Music
-  identifier:
-    kind: Exe
-    id: cloudmusic.exe
-  options:
-  - tray_and_multi_window
