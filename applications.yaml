@@ -71,6 +71,9 @@
   float_identifiers:
   - kind: Title
     id: Window Spy
+  - kind: Exe
+    id: AutoHotkeyUX.exe
+    comment: Run AHK script with version popup
 - name: Beeper
   identifier:
     kind: Exe
@@ -98,12 +101,30 @@
   float_identifiers:
   - kind: Title
     id: Calculator
+- name: Clash Verge
+  identifier:
+    kind: Exe
+    id: Clash Verge.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Exe
+    id: Clash Verge.exe
 - name: Clementine
   identifier:
     kind: Exe
     id: clementine.exe
   options:
   - tray_and_multi_window
+- name: CopyQ
+  identifier:
+    kind: Exe
+    id: copyq.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Exe
+    id: copyq.exe
 - name: Credential Manager UI Host
   identifier:
     kind: Exe
@@ -230,6 +251,13 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: Everything
+  identifier:
+    kind: Exe
+    id: Everything.exe
+  options:
+  - tray_and_multi_window
+  - border_overflow
 - name: Figma
   identifier:
     kind: Exe
@@ -268,6 +296,15 @@
   - border_overflow
   - force
   - object_name_change
+- name: Golden Dict
+  identifier:
+    kind: Exe
+    id: GoldenDict.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Exe
+    id: GoldenDict.exe
 - name: Google Chrome
   identifier:
     kind: Exe
@@ -367,6 +404,12 @@
   identifier:
     kind: Exe
     id: mailspring.exe
+  options:
+  - tray_and_multi_window
+- name: ManicTime
+  identifier:
+    kind: Exe
+    id: ManicTimeClient.exe
   options:
   - tray_and_multi_window
 - name: ManyCam
@@ -507,6 +550,12 @@
     id: obs64.exe
   options:
   - tray_and_multi_window
+  float_identifiers:
+  - kind: Title
+    id: 设置
+  - kind: Class
+    id: Qt643QWindowPopupDropShadowSaveBits
+    comment: Menu bar popup
 - name: ONLYOFFICE Editors
   identifier:
     kind: Class
@@ -528,6 +577,12 @@
   float_identifiers:
   - kind: Class
     id: OneDriveReactNativeWin32WindowClass
+- name: OneQuick
+  identifier:
+    kind: Exe
+    id: OneQuick.exe
+  options:
+  - tray_and_multi_window
 - name: OpenRGB
   identifier:
     kind: Exe
@@ -572,6 +627,9 @@
   - kind: Exe
     id: PowerToys.Peek.UI.exe
     comment: Target Peek popup
+  - kind: Exe
+    id: PowerToys.FileLocksmithUI.exe
+    comment: File unlock popup
 - name: Process Hacker
   identifier:
     kind: Exe
@@ -599,6 +657,19 @@
   - kind: Class
     id: SunAwtDialog
     comment: Targets JetBrains IDE popups and detached windows
+- name: QQ
+  identifier:
+    kind: Exe
+    id: QQ.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Title
+    id: 图片查看器
+  - kind: Title
+    id: 群聊的聊天记录
+  - kind: Title
+    id: 语音通话
 - name: QtScrcpy
   identifier:
     kind: Exe
@@ -649,6 +720,12 @@
     id: RoundedTB.exe
   options:
   - border_overflow
+  - tray_and_multi_window
+- name: Sandboxie Plus
+  identifier:
+    kind: Exe
+    id: SandMan.exe
+  options:
   - tray_and_multi_window
 - name: ShareX
   identifier:
@@ -739,6 +816,9 @@
   - kind: Title
     id: notificationtoasts_
     comment: Target notification toast popups
+  - kind: Title
+    id: 好友列表
+    comment: Friend list in Chinese
 - name: Stremio
   identifier:
     kind: Exe
@@ -973,3 +1053,9 @@
   float_identifiers:
   - kind: Exe
     id: ueli.exe
+- name: 网易云音乐
+  identifier:
+    kind: Exe
+    id: cloudmusic.exe
+  options:
+  - tray_and_multi_window
