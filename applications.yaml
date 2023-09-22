@@ -807,9 +807,6 @@
   - kind: Title
     id: notificationtoasts_
     comment: Target notification toast popups
-  - kind: Title
-    id: 好友列表
-    comment: Friend list in Chinese
 - name: Stremio
   identifier:
     kind: Exe
