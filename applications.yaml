@@ -73,7 +73,6 @@
     id: Window Spy
   - kind: Exe
     id: AutoHotkeyUX.exe
-    comment: Run AHK script with version popup
 - name: Beeper
   identifier:
     kind: Exe
@@ -106,10 +105,8 @@
     kind: Exe
     id: Clash Verge.exe
   options:
+    - border_overflow
   - tray_and_multi_window
-  float_identifiers:
-  - kind: Exe
-    id: Clash Verge.exe
 - name: Clementine
   identifier:
     kind: Exe
@@ -122,9 +119,6 @@
     id: copyq.exe
   options:
   - tray_and_multi_window
-  float_identifiers:
-  - kind: Exe
-    id: copyq.exe
 - name: Credential Manager UI Host
   identifier:
     kind: Exe
@@ -257,7 +251,6 @@
     id: Everything.exe
   options:
   - tray_and_multi_window
-  - border_overflow
 - name: Figma
   identifier:
     kind: Exe
@@ -302,9 +295,6 @@
     id: GoldenDict.exe
   options:
   - tray_and_multi_window
-  float_identifiers:
-  - kind: Exe
-    id: GoldenDict.exe
 - name: Google Chrome
   identifier:
     kind: Exe
@@ -551,8 +541,6 @@
   options:
   - tray_and_multi_window
   float_identifiers:
-  - kind: Title
-    id: 设置
   - kind: Class
     id: Qt643QWindowPopupDropShadowSaveBits
     comment: Menu bar popup
@@ -627,9 +615,6 @@
   - kind: Exe
     id: PowerToys.Peek.UI.exe
     comment: Target Peek popup
-  - kind: Exe
-    id: PowerToys.FileLocksmithUI.exe
-    comment: File unlock popup
 - name: Process Hacker
   identifier:
     kind: Exe
@@ -1053,7 +1038,7 @@
   float_identifiers:
   - kind: Exe
     id: ueli.exe
-- name: 网易云音乐
+- name: NetEase Cloud Music
   identifier:
     kind: Exe
     id: cloudmusic.exe
