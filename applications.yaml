@@ -541,9 +541,6 @@
   options:
   - tray_and_multi_window
   float_identifiers:
-  - kind: Class
-    id: Qt643QWindowPopupDropShadowSaveBits
-    comment: Menu bar popup
 - name: ONLYOFFICE Editors
   identifier:
     kind: Class
