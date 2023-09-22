@@ -71,6 +71,8 @@
   float_identifiers:
   - kind: Title
     id: Window Spy
+  - kind: Exe
+    id: AutoHotkeyUX.exe
 - name: Beeper
   identifier:
     kind: Exe
@@ -98,10 +100,23 @@
   float_identifiers:
   - kind: Title
     id: Calculator
+- name: Clash Verge
+  identifier:
+    kind: Exe
+    id: Clash Verge.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
 - name: Clementine
   identifier:
     kind: Exe
     id: clementine.exe
+  options:
+  - tray_and_multi_window
+- name: CopyQ
+  identifier:
+    kind: Exe
+    id: copyq.exe
   options:
   - tray_and_multi_window
 - name: Credential Manager UI Host
@@ -230,6 +245,12 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: Everything
+  identifier:
+    kind: Exe
+    id: Everything.exe
+  options:
+  - tray_and_multi_window
 - name: Figma
   identifier:
     kind: Exe
@@ -268,6 +289,12 @@
   - border_overflow
   - force
   - object_name_change
+- name: Golden Dict
+  identifier:
+    kind: Exe
+    id: GoldenDict.exe
+  options:
+  - tray_and_multi_window
 - name: Google Chrome
   identifier:
     kind: Exe
@@ -474,6 +501,12 @@
     id: NZXT CAM.exe
   options:
   - tray_and_multi_window
+- name: NetEase Cloud Music
+  identifier:
+    kind: Exe
+    id: cloudmusic.exe
+  options:
+  - tray_and_multi_window
 - name: NiceHash Miner
   identifier:
     kind: Exe
@@ -528,6 +561,12 @@
   float_identifiers:
   - kind: Class
     id: OneDriveReactNativeWin32WindowClass
+- name: OneQuick
+  identifier:
+    kind: Exe
+    id: OneQuick.exe
+  options:
+  - tray_and_multi_window
 - name: OpenRGB
   identifier:
     kind: Exe
@@ -599,6 +638,19 @@
   - kind: Class
     id: SunAwtDialog
     comment: Targets JetBrains IDE popups and detached windows
+- name: QQ
+  identifier:
+    kind: Exe
+    id: QQ.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Title
+    id: 图片查看器
+  - kind: Title
+    id: 群聊的聊天记录
+  - kind: Title
+    id: 语音通话
 - name: QtScrcpy
   identifier:
     kind: Exe
@@ -649,6 +701,12 @@
     id: RoundedTB.exe
   options:
   - border_overflow
+  - tray_and_multi_window
+- name: Sandboxie Plus
+  identifier:
+    kind: Exe
+    id: SandMan.exe
+  options:
   - tray_and_multi_window
 - name: ShareX
   identifier:
