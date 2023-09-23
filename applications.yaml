@@ -702,6 +702,17 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: RustRover
+  identifier:
+    kind: Exe
+    id: rustrover64.exe
+  options:
+  - object_name_change
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Class
+    id: SunAwtDialog
+    comment: Targets JetBrains IDE popups and floating windows
 - name: Sandboxie Plus
   identifier:
     kind: Exe
