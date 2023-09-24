@@ -396,6 +396,15 @@
     id: mailspring.exe
   options:
   - tray_and_multi_window
+- name: ManicTime
+  identifier:
+    kind: Exe
+    id: ManicTimeClient.exe
+  options:
+  - border_overflow
+  - force
+  - object_name_change
+  - tray_and_multi_window
 - name: ManyCam
   identifier:
     kind: Exe
