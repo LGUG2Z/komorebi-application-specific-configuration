@@ -247,8 +247,8 @@
   - tray_and_multi_window
 - name: Everything
   identifier:
-    kind: Exe
-    id: Everything.exe
+    kind: Class
+    id: EVERYTHING
   options:
   - tray_and_multi_window
 - name: Everything1.5a
