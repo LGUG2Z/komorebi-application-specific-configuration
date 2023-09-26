@@ -319,10 +319,10 @@
     id: GoogleDriveFS.exe
 - name: Honeyview
   identifier:
-    kind: Exe
-    id: Honeyview.exe
+    kind: Class
+    id: HoneyviewClassX
   options:
-  - force
+  - border_overflow
 - name: Houdoku
   identifier:
     kind: Exe
