@@ -247,9 +247,16 @@
   - tray_and_multi_window
 - name: Everything
   identifier:
-    kind: Exe
-    id: Everything.exe
+    kind: Class
+    id: EVERYTHING
   options:
+  - tray_and_multi_window
+- name: Everything1.5a
+  identifier:
+    kind: Class
+    id: EVERYTHING_(1.5a)
+  options:
+  - force
   - tray_and_multi_window
 - name: Figma
   identifier:
@@ -310,6 +317,12 @@
   float_identifiers:
   - kind: Exe
     id: GoogleDriveFS.exe
+- name: Honeyview
+  identifier:
+    kind: Class
+    id: HoneyviewClassX
+  options:
+  - border_overflow
 - name: Houdoku
   identifier:
     kind: Exe
