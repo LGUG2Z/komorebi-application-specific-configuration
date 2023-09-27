@@ -642,6 +642,13 @@
   float_identifiers:
   - kind: Exe
     id: ProcessHacker.exe
+- name: ProtonDrive
+  identifier:
+    kind: Exe
+    id: ProtonDrive.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
 - name: ProtonVPN
   identifier:
     kind: Exe
