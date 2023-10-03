@@ -927,6 +927,13 @@
     id: devenv.exe
   options:
   - object_name_change
+  float_identifiers:
+  - kind: Exe
+    id: VsDebugConsole.exe
+    comment: Console for debugging
+  - kind: Class
+    id: WindowsForms10.Window.8.app.0.13fa1bf_r22_ad1
+    comment: Popup windows forms.
 - name: Visual Studio Code
   identifier:
     kind: Exe
