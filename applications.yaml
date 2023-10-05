@@ -93,6 +93,12 @@
   float_identifiers:
   - kind: Exe
     id: Bloxstrap.exe
+- name: Brave Browser
+  identifier:
+    kind: Exe
+    id: brave.exe
+  options:
+  - tray_and_multi_window
 - name: Calculator
   identifier:
     kind: Title
