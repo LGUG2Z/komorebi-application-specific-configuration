@@ -478,6 +478,12 @@
     comment: Targets a hidden window spawned by Microsoft Office applications
 - name: Microsoft Teams
   identifier:
+    kind: Class
+    id: TeamsWebView
+  options:
+  - tray_and_multi_window
+- name: Microsoft Teams classic
+  identifier:
     kind: Exe
     id: Teams.exe
   options:
