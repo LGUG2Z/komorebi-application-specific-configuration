@@ -431,6 +431,13 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: Mattermost
+  identifier:
+    kind: Exe
+    id: Mattermost.exe
+  options:
+  - border_overflow
+  - tray_and_multi_window
 - name: Mica For Everyone
   identifier:
     kind: Exe
