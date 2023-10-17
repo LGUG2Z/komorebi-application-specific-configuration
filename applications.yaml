@@ -106,6 +106,15 @@
   float_identifiers:
   - kind: Title
     id: Calculator
+- name: Citrix Receiver
+  identifier:
+    kind: Exe
+    id: SelfService.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Exe
+    id: SelfService.exe
 - name: Clash Verge
   identifier:
     kind: Exe
