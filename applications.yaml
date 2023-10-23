@@ -739,6 +739,9 @@
   - kind: Class
     id: SunAwtDialog
     comment: Targets JetBrains IDE popups and floating windows
+  - kind: Title
+    id: PopupMessageWindow
+    comment: Targets JetBrains IDE popups
 - name: Roblox FPS Unlocker
   identifier:
     kind: Exe
