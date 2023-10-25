@@ -86,6 +86,13 @@
     id: Bitwarden.exe
   options:
   - tray_and_multi_window
+- name: Blitz
+  identifier:
+    kind: Exe
+    id: Blitz.exe
+  float_identifiers:
+  - kind: Exe
+    id: Blitz.exe
 - name: Bloxstrap
   identifier:
     kind: Exe
