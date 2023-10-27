@@ -715,6 +715,15 @@
     id: 群聊的聊天记录
   - kind: Title
     id: 语音通话
+- name: QQ NT
+  identifier:
+    kind: Exe
+    id: QQ.exe
+  options:
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Class
+    id: Chrome_WidgetWin_1
 - name: QtScrcpy
   identifier:
     kind: Exe
@@ -875,6 +884,9 @@
   - kind: Title
     id: notificationtoasts_
     comment: Target notification toast popups
+  - kind: Title
+    id: Menu
+    comment: Target tray icon popup menu
 - name: Stremio
   identifier:
     kind: Exe
