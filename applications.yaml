@@ -280,6 +280,12 @@
   options:
   - force
   - tray_and_multi_window
+- name: FFMetrics
+  identifier:
+    kind: Exe
+    id: FFMetrics.exe
+  options:
+  - tray_and_multi_window
 - name: Figma
   identifier:
     kind: Exe
