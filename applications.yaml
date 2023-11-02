@@ -857,6 +857,13 @@
   - kind: Class
     id: obj_Form
     comment: Target installer
+- name: SnippingTool
+  identifier:
+    kind: Exe
+    id: SnippingTool.exe
+  float_identifiers:
+  - kind: Exe
+    id: SnippingTool.exe
 - name: SoulseekQt
   identifier:
     kind: Exe
