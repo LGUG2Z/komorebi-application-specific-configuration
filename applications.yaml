@@ -375,6 +375,12 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: KOOK
+  identifier:
+    kind: Exe
+    id: KOOK.exe
+  options:
+  - tray_and_multi_window
 - name: Keyviz
   identifier:
     kind: Exe
@@ -851,6 +857,13 @@
   - kind: Class
     id: obj_Form
     comment: Target installer
+- name: SnippingTool
+  identifier:
+    kind: Exe
+    id: SnippingTool.exe
+  float_identifiers:
+  - kind: Exe
+    id: SnippingTool.exe
 - name: SoulseekQt
   identifier:
     kind: Exe
