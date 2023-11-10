@@ -971,6 +971,7 @@
     id: Unity Hub.exe
   options:
   - tray_and_multi_window
+  - border_overflow
 - name: Unreal Editor
   identifier:
     kind: Exe
