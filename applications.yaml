@@ -649,6 +649,12 @@
   float_identifiers:
   - kind: Exe
     id: Paradox Launcher.exe
+- name: Passware Kit Forensic
+  identifier:
+    kind: Exe
+    id: PasswareKitForensic.exe
+  options:
+  - border_overflow
 - name: Playnite
   identifier:
     kind: Exe
