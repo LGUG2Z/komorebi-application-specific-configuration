@@ -214,6 +214,12 @@
   float_identifiers:
   - kind: Exe
     id: Dropbox.exe
+- name: EA Desktop Client
+  identifier:
+    kind: Exe
+    id: EADesktop.exe
+  options:
+  - border_overflow
 - name: Eagle
   identifier:
     kind: Exe
