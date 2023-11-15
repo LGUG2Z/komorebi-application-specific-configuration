@@ -298,6 +298,12 @@
     id: Figma.exe
   options:
   - border_overflow
+- name: Files
+  identifier:
+    kind: Exe
+    id: Files.exe
+  options:
+  - tray_and_multi_window
 - name: Flow Launcher
   identifier:
     kind: Exe
