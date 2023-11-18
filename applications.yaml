@@ -2,6 +2,7 @@
   identifier:
     kind: Exe
     id: 1Password.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: 1Password.exe
@@ -41,24 +42,28 @@
   identifier:
     kind: Exe
     id: Akiflow.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Android Studio
   identifier:
     kind: Exe
     id: studio64.exe
+    matching_strategy: Equals
   options:
   - object_name_change
 - name: Anki
   identifier:
     kind: Exe
     id: anki.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: ArmCord
   identifier:
     kind: Exe
     id: ArmCord.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -66,6 +71,7 @@
   identifier:
     kind: Exe
     id: AutoHotkeyU64.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
   float_identifiers:
@@ -77,6 +83,7 @@
   identifier:
     kind: Exe
     id: Beeper.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -84,12 +91,14 @@
   identifier:
     kind: Exe
     id: Bitwarden.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Blitz
   identifier:
     kind: Exe
     id: Blitz.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -97,6 +106,7 @@
   identifier:
     kind: Exe
     id: Bloxstrap.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: Bloxstrap.exe
@@ -104,6 +114,7 @@
   identifier:
     kind: Exe
     id: brave.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Calculator
@@ -117,6 +128,7 @@
   identifier:
     kind: Exe
     id: SelfService.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
   float_identifiers:
@@ -126,6 +138,7 @@
   identifier:
     kind: Exe
     id: Clash Verge.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -133,18 +146,21 @@
   identifier:
     kind: Exe
     id: clementine.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: CopyQ
   identifier:
     kind: Exe
     id: copyq.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Credential Manager UI Host
   identifier:
     kind: Exe
     id: CredentialUIBroker.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: CredentialUIBroker.exe
@@ -153,6 +169,7 @@
   identifier:
     kind: Exe
     id: Cron.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -160,6 +177,7 @@
   identifier:
     kind: Exe
     id: DS4Windows.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Delphi applications
@@ -177,6 +195,7 @@
   identifier:
     kind: Exe
     id: Discord.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -184,6 +203,7 @@
   identifier:
     kind: Exe
     id: DiscordCanary.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -191,6 +211,7 @@
   identifier:
     kind: Exe
     id: DiscordDevelopment.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -198,6 +219,7 @@
   identifier:
     kind: Exe
     id: DiscordPTB.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -205,12 +227,14 @@
   identifier:
     kind: Exe
     id: Docker Desktop.exe
+    matching_strategy: Equals
   options:
   - border_overflow
 - name: Dropbox
   identifier:
     kind: Exe
     id: Dropbox.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: Dropbox.exe
@@ -218,30 +242,35 @@
   identifier:
     kind: Exe
     id: EADesktop.exe
+    matching_strategy: Equals
   options:
   - border_overflow
 - name: Eagle
   identifier:
     kind: Exe
     id: Eagle.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: ElectronMail
   identifier:
     kind: Exe
     id: ElectronMail.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Element
   identifier:
     kind: Exe
     id: Element.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Elephicon
   identifier:
     kind: Exe
     id: Elephicon.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: Elephicon.exe
@@ -249,12 +278,14 @@
   identifier:
     kind: Exe
     id: ElevenClock.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Elgato Camera Hub
   identifier:
     kind: Exe
     id: Camera Hub.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: Camera Hub.exe
@@ -262,6 +293,7 @@
   identifier:
     kind: Exe
     id: ControlCenter.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: ControlCenter.exe
@@ -269,6 +301,7 @@
   identifier:
     kind: Exe
     id: WaveLink.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: WaveLink.exe
@@ -276,6 +309,7 @@
   identifier:
     kind: Exe
     id: EpicGamesLauncher.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -296,30 +330,35 @@
   identifier:
     kind: Exe
     id: FFMetrics.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Figma
   identifier:
     kind: Exe
     id: Figma.exe
+    matching_strategy: Equals
   options:
   - border_overflow
 - name: Files
   identifier:
     kind: Exe
     id: Files.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Flow Launcher
   identifier:
     kind: Exe
     id: Flow.Launcher.exe
+    matching_strategy: Equals
   options:
   - border_overflow
 - name: GOG Galaxy
   identifier:
     kind: Exe
     id: GalaxyClient.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - force
@@ -338,6 +377,7 @@
   identifier:
     kind: Exe
     id: GodotManager.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - force
@@ -346,18 +386,21 @@
   identifier:
     kind: Exe
     id: GoldenDict.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Google Chrome
   identifier:
     kind: Exe
     id: chrome.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Google Drive
   identifier:
     kind: Exe
     id: GoogleDriveFS.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
   float_identifiers:
@@ -373,12 +416,14 @@
   identifier:
     kind: Exe
     id: Houdoku.exe
+    matching_strategy: Equals
   options:
   - border_overflow
 - name: IntelliJ IDEA
   identifier:
     kind: Exe
     id: idea64.exe
+    matching_strategy: Equals
   options:
   - object_name_change
   - tray_and_multi_window
@@ -390,6 +435,7 @@
   identifier:
     kind: Exe
     id: itch.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -397,12 +443,14 @@
   identifier:
     kind: Exe
     id: KOOK.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Keyviz
   identifier:
     kind: Exe
     id: keyviz.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: keyviz.exe
@@ -410,12 +458,14 @@
   identifier:
     kind: Exe
     id: kleopatra.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Kotatogram
   identifier:
     kind: Exe
     id: Kotatogram.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -423,12 +473,14 @@
   identifier:
     kind: Exe
     id: localsend_app.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Logi Bolt
   identifier:
     kind: Exe
     id: LogiBolt.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: LogiBolt.exe
@@ -436,6 +488,7 @@
   identifier:
     kind: Exe
     id: LogiTune.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
   float_identifiers:
@@ -445,6 +498,7 @@
   identifier:
     kind: Exe
     id: lghub.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
   - border_overflow
@@ -452,6 +506,7 @@
   identifier:
     kind: Exe
     id: LogiOptionsUI.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: LogiOptionsUI.exe
@@ -459,12 +514,14 @@
   identifier:
     kind: Exe
     id: mailspring.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: ManicTime
   identifier:
     kind: Exe
     id: ManicTimeClient.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - force
@@ -474,6 +531,7 @@
   identifier:
     kind: Exe
     id: ManyCam.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -481,6 +539,7 @@
   identifier:
     kind: Exe
     id: Mattermost.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -488,10 +547,12 @@
   identifier:
     kind: Exe
     id: MicaForEveryone.exe
+    matching_strategy: Equals
 - name: Microsoft Excel
   identifier:
     kind: Exe
     id: EXCEL.EXE
+    matching_strategy: Equals
   options:
   - border_overflow
   - layered
@@ -503,6 +564,7 @@
   identifier:
     kind: Exe
     id: OUTLOOK.EXE
+    matching_strategy: Equals
   options:
   - border_overflow
   - layered
@@ -515,6 +577,7 @@
   identifier:
     kind: Exe
     id: MSPCManager.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: MSPCManager.exe
@@ -522,6 +585,7 @@
   identifier:
     kind: Exe
     id: POWERPNT.EXE
+    matching_strategy: Equals
   options:
   - border_overflow
   - layered
@@ -539,6 +603,7 @@
   identifier:
     kind: Exe
     id: Teams.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   float_identifiers:
@@ -552,6 +617,7 @@
   identifier:
     kind: Exe
     id: WINWORD.EXE
+    matching_strategy: Equals
   options:
   - border_overflow
   - layered
@@ -563,12 +629,14 @@
   identifier:
     kind: Exe
     id: ModernFlyoutsHost.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Mozilla Firefox
   identifier:
     kind: Exe
     id: firefox.exe
+    matching_strategy: Equals
   options:
   - object_name_change
   - tray_and_multi_window
@@ -580,24 +648,28 @@
   identifier:
     kind: Exe
     id: NVIDIA GeForce Experience.exe
+    matching_strategy: Equals
   options:
   - border_overflow
 - name: NZXT CAM
   identifier:
     kind: Exe
     id: NZXT CAM.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: NetEase Cloud Music
   identifier:
     kind: Exe
     id: cloudmusic.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: NiceHash Miner
   identifier:
     kind: Exe
     id: nhm_app.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - force
@@ -605,6 +677,7 @@
   identifier:
     kind: Exe
     id: NohBoard.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: NohBoard.exe
@@ -612,6 +685,7 @@
   identifier:
     kind: Exe
     id: Notion Enhanced.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -619,12 +693,14 @@
   identifier:
     kind: Exe
     id: obs32.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: OBS Studio (64-bit)
   identifier:
     kind: Exe
     id: obs64.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: ONLYOFFICE Editors
@@ -638,6 +714,7 @@
   identifier:
     kind: Exe
     id: Obsidian.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - force
@@ -645,6 +722,7 @@
   identifier:
     kind: Exe
     id: OneDrive.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Class
     id: OneDriveReactNativeWin32WindowClass
@@ -652,18 +730,21 @@
   identifier:
     kind: Exe
     id: OneQuick.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: OpenRGB
   identifier:
     kind: Exe
     id: OpenRGB.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Paradox Launcher
   identifier:
     kind: Exe
     id: Paradox Launcher.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: Paradox Launcher.exe
@@ -671,12 +752,14 @@
   identifier:
     kind: Exe
     id: PasswareKitForensic.exe
+    matching_strategy: Equals
   options:
   - border_overflow
 - name: Playnite
   identifier:
     kind: Exe
     id: Playnite.DesktopApp.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -688,12 +771,14 @@
   identifier:
     kind: Exe
     id: Plexamp.exe
+    matching_strategy: Equals
   options:
   - border_overflow
 - name: PowerToys
   identifier:
     kind: Exe
     id: PowerToys.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: PowerToys.ColorPickerUI.exe
@@ -708,6 +793,7 @@
   identifier:
     kind: Exe
     id: ProcessHacker.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
   float_identifiers:
@@ -717,6 +803,7 @@
   identifier:
     kind: Exe
     id: ProtonDrive.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -724,6 +811,7 @@
   identifier:
     kind: Exe
     id: ProtonVPN.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -731,6 +819,7 @@
   identifier:
     kind: Exe
     id: pycharm64.exe
+    matching_strategy: Equals
   options:
   - object_name_change
   - tray_and_multi_window
@@ -742,6 +831,7 @@
   identifier:
     kind: Exe
     id: QQ.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
   float_identifiers:
@@ -755,12 +845,14 @@
   identifier:
     kind: Exe
     id: QtScrcpy.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: QuickLook
   identifier:
     kind: Exe
     id: QuickLook.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: QuickLook.exe
@@ -768,6 +860,7 @@
   identifier:
     kind: Exe
     id: RepoZ.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: RepoZ.exe
@@ -775,6 +868,7 @@
   identifier:
     kind: Exe
     id: rider64.exe
+    matching_strategy: Equals
   options:
   - object_name_change
   - tray_and_multi_window
@@ -789,12 +883,14 @@
   identifier:
     kind: Exe
     id: rbxfpsunlocker.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: RoundedTB
   identifier:
     kind: Exe
     id: RoundedTB.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: RoundedTB.exe
@@ -802,6 +898,7 @@
   identifier:
     kind: Exe
     id: RoundedTB.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -809,6 +906,7 @@
   identifier:
     kind: Exe
     id: rustrover64.exe
+    matching_strategy: Equals
   options:
   - object_name_change
   - tray_and_multi_window
@@ -820,12 +918,14 @@
   identifier:
     kind: Exe
     id: SandMan.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: ShareX
   identifier:
     kind: Exe
     id: ShareX.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -833,6 +933,7 @@
   identifier:
     kind: Exe
     id: sideloadly.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: sideloadly.exe
@@ -840,18 +941,21 @@
   identifier:
     kind: Exe
     id: Signal.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: SiriKali
   identifier:
     kind: Exe
     id: sirikali.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Slack
   identifier:
     kind: Exe
     id: Slack.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -863,6 +967,7 @@
   identifier:
     kind: Exe
     id: slack.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -874,6 +979,7 @@
   identifier:
     kind: Exe
     id: SIM.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Class
     id: obj_App
@@ -885,6 +991,7 @@
   identifier:
     kind: Exe
     id: SnippingTool.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: SnippingTool.exe
@@ -892,12 +999,14 @@
   identifier:
     kind: Exe
     id: SoulseekQt.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Spotify
   identifier:
     kind: Exe
     id: Spotify.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -922,12 +1031,14 @@
   identifier:
     kind: Exe
     id: stremio.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: System Informer
   identifier:
     kind: Exe
     id: SystemInformer.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
   float_identifiers:
@@ -937,6 +1048,7 @@
   identifier:
     kind: Exe
     id: SystemSettings.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Class
     id: Shell_Dialog
@@ -944,6 +1056,7 @@
   identifier:
     kind: Exe
     id: Taskmgr.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Class
     id: TaskManagerWindow
@@ -951,6 +1064,7 @@
   identifier:
     kind: Exe
     id: Telegram.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -958,6 +1072,7 @@
   identifier:
     kind: Exe
     id: TickTick.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -965,6 +1080,7 @@
   identifier:
     kind: Exe
     id: tcconfig.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
   float_identifiers:
@@ -974,6 +1090,7 @@
   identifier:
     kind: Exe
     id: TranslucentTB.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: TranslucentTB.exe
@@ -981,12 +1098,14 @@
   identifier:
     kind: Exe
     id: TranslucentTB.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Unity Hub
   identifier:
     kind: Exe
     id: Unity Hub.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
   - border_overflow
@@ -994,6 +1113,7 @@
   identifier:
     kind: Exe
     id: UnrealEditor.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -1001,30 +1121,35 @@
   identifier:
     kind: Exe
     id: VRCX.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Visual Studio
   identifier:
     kind: Exe
     id: devenv.exe
+    matching_strategy: Equals
   options:
   - object_name_change
 - name: Visual Studio Code
   identifier:
     kind: Exe
     id: Code.exe
+    matching_strategy: Equals
   options:
   - border_overflow
 - name: Visual Studio Code - Insiders
   identifier:
     kind: Exe
     id: Code - Insiders.exe
+    matching_strategy: Equals
   options:
   - border_overflow
 - name: Voice.ai
   identifier:
     kind: Exe
     id: VoiceAI.exe
+    matching_strategy: Equals
   options:
   - border_overflow
   - tray_and_multi_window
@@ -1032,12 +1157,14 @@
   identifier:
     kind: Exe
     id: WebTorrent.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: WinZip (32-bit)
   identifier:
     kind: Exe
     id: winzip32.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: winzip32.exe
@@ -1045,6 +1172,7 @@
   identifier:
     kind: Exe
     id: winzip64.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: winzip64.exe
@@ -1058,6 +1186,7 @@
   identifier:
     kind: Exe
     id: explorer.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Class
     id: OperationStatusWindow
@@ -1068,6 +1197,7 @@
   identifier:
     kind: Exe
     id: msiexec.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: msiexec.exe
@@ -1075,6 +1205,7 @@
   identifier:
     kind: Exe
     id: WsaClient.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Class
     id: android(splash)
@@ -1083,18 +1214,21 @@
   identifier:
     kind: Exe
     id: WingetUI.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: WingetUI
   identifier:
     kind: Exe
     id: wingetui.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Wox
   identifier:
     kind: Exe
     id: Wox.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Title
     id: Hotkey sink
@@ -1103,12 +1237,14 @@
   identifier:
     kind: Exe
     id: xampp-control.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: Zoom
   identifier:
     kind: Exe
     id: Zoom.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: Zoom.exe
@@ -1122,12 +1258,14 @@
   identifier:
     kind: Exe
     id: mpvnet.exe
+    matching_strategy: Equals
   options:
   - object_name_change
 - name: paint.net
   identifier:
     kind: Exe
     id: paintdotnet.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: paintdotnet.exe
@@ -1135,6 +1273,7 @@
   identifier:
     kind: Exe
     id: pinentry.exe
+    matching_strategy: Equals
   float_identifiers:
   - kind: Exe
     id: pinentry.exe
@@ -1142,12 +1281,14 @@
   identifier:
     kind: Exe
     id: qbittorrent.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: ueli
   identifier:
     kind: Exe
     id: ueli.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
   float_identifiers:
