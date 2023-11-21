@@ -1117,6 +1117,12 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: VMware Horizon Client
+  identifier:
+    kind: Exe
+    id: vmware-view.exe
+  options:
+  - tray_and_multi_window
 - name: VRCX
   identifier:
     kind: Exe
