@@ -173,6 +173,18 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: Cyberduck
+  identifier:
+    kind: Exe
+    id: Cyberduck.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Title
+    id: Info
+  - kind: Title
+    id: Preferences
+  - kind: Title
+    id: Transfers
 - name: DS4Windows
   identifier:
     kind: Exe
