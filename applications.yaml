@@ -124,6 +124,13 @@
   float_identifiers:
   - kind: Title
     id: Calculator
+- name: Cider
+  identifier:
+    kind: Title
+    id: Cider ?2?
+    matching_strategy: Regex
+  options:
+  - border_overflow
 - name: Citrix Receiver
   identifier:
     kind: Exe
