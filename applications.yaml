@@ -173,11 +173,11 @@
   options:
   - border_overflow
   - tray_and_multi_window
-- name: Dialog boxes
+- name: Microsoft Active Accessibility
   float_identifiers:
   - kind: Class
     id: '#32770'
-    comment: This appears to be a general identifier for dialog boxes https://learn.microsoft.com/en-us/windows/win32/winauto/dialog-box
+    comment: Dialog Box
 - name: DS4Windows
   identifier:
     kind: Exe
