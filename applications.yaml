@@ -548,6 +548,14 @@
     kind: Exe
     id: MicaForEveryone.exe
     matching_strategy: Equals
+- name: Microsoft Active Accessibility
+  identifier:
+    kind: Class
+    id: ''
+  float_identifiers:
+  - kind: Class
+    id: '#32770'
+    comment: Dialog Box
 - name: Microsoft Excel
   identifier:
     kind: Exe
