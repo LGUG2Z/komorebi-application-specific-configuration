@@ -29,6 +29,15 @@
     id: Photoshop
   options:
   - border_overflow
+- name: Adobe Premiere Pro
+  identifier:
+    kind: Class
+    id: Premiere Pro
+  float_identifiers:
+  - kind: Class
+    id: DroverLord - Window Class
+    matching_strategy: Equals
+    comment: Premiere Pro effects popups
 - name: Affinity Photo 2
   identifier:
     kind: Title
