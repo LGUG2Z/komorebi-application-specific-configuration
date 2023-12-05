@@ -811,6 +811,9 @@
     id: PowerToys.ColorPickerUI.exe
     comment: Target color picker dialog
   - kind: Exe
+    id: PowerToys.CropAndLock.exe
+    comment: Target thumbnail/cropped window
+  - kind: Exe
     id: PowerToys.ImageResizer.exe
     comment: Target image resizer dialog
   - kind: Exe
