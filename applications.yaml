@@ -217,6 +217,7 @@
   options:
   - border_overflow
   - tray_and_multi_window
+  - force
 - name: DiscordCanary
   identifier:
     kind: Exe
