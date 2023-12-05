@@ -1,6 +1,15 @@
 - name: 1Password
   identifier:
     kind: Exe
+    id: Guitar Rig 7.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Exe
+    id: Guitar Rig 7.exe
+    matching_strategy: Equals
+- name: 1Password
+  identifier:
+    kind: Exe
     id: 1Password.exe
     matching_strategy: Equals
   float_identifiers:
@@ -36,8 +45,8 @@
   float_identifiers:
   - kind: Class
     id: DroverLord - Window Class
-    matching_strategy: Equals
     comment: Premiere Pro effects popups
+    matching_strategy: Equals
 - name: Affinity Photo 2
   identifier:
     kind: Title
@@ -808,8 +817,8 @@
     comment: Target Peek popup
   - kind: Exe
     id: PowerToys.PowerLauncher.exe
-    matching_strategy: Equals
     comment: PpowerLauncher popup
+    matching_strategy: Equals
 - name: Process Hacker
   identifier:
     kind: Exe
@@ -1142,6 +1151,7 @@
   identifier:
     kind: Exe
     id: vmware-view.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: VRCX
