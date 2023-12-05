@@ -1132,6 +1132,7 @@
   identifier:
     kind: Exe
     id: vmware-view.exe
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
 - name: VRCX
