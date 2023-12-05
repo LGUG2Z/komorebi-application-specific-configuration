@@ -797,6 +797,10 @@
   - kind: Exe
     id: PowerToys.Peek.UI.exe
     comment: Target Peek popup
+  - kind: Exe
+    id: PowerToys.PowerLauncher.exe
+    matching_strategy: Equals
+    comment: PpowerLauncher popup
 - name: Process Hacker
   identifier:
     kind: Exe
