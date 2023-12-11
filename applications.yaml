@@ -1428,3 +1428,9 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
+- name: todoist
+  identifier:
+    kind: Exe
+    id: Todoist.exe
+  options:
+  - border_overflow
