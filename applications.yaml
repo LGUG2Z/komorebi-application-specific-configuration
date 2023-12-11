@@ -1335,3 +1335,9 @@
   float_identifiers:
   - kind: Exe
     id: ueli.exe
+- name: todoist
+  identifier:
+    kind: Exe
+    id: Todoist.exe
+  options:
+  - border_overflow
