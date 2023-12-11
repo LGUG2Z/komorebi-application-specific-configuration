@@ -1339,5 +1339,6 @@
   identifier:
     kind: Exe
     id: Todoist.exe
+    matching_strategy: Legacy
   options:
   - border_overflow
