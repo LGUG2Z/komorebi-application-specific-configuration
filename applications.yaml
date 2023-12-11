@@ -1417,6 +1417,13 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: todoist
+  identifier:
+    kind: Exe
+    id: Todoist.exe
+    matching_strategy: Equals
+  options:
+  - border_overflow
 - name: ueli
   identifier:
     kind: Exe
@@ -1428,10 +1435,3 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
-- name: todoist
-  identifier:
-    kind: Exe
-    id: Todoist.exe
-    matching_strategy: Equals
-  options:
-  - border_overflow
