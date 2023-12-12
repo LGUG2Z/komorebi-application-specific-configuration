@@ -104,8 +104,8 @@
   float_identifiers:
   - kind: Title
     id: Window Spy
-    matching_strategy: StartsWith
     comment: Uses `StartsWith` to also match `* for AHKv2`
+    matching_strategy: StartsWith
   - kind: Exe
     id: AutoHotkeyUX.exe
     matching_strategy: Equals
