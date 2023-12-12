@@ -104,7 +104,8 @@
   float_identifiers:
   - kind: Title
     id: Window Spy
-    matching_strategy: Legacy
+    matching_strategy: StartsWith
+    comment: Uses `StartsWith` to also match `* for AHKv2`
   - kind: Exe
     id: AutoHotkeyUX.exe
     matching_strategy: Equals
@@ -151,11 +152,11 @@
   identifier:
     kind: Title
     id: Calculator
-    matching_strategy: Legacy
+    matching_strategy: Equals
   float_identifiers:
   - kind: Title
     id: Calculator
-    matching_strategy: Legacy
+    matching_strategy: Equals
 - name: Citrix Receiver
   identifier:
     kind: Exe
@@ -480,7 +481,7 @@
   - kind: Class
     id: SunAwtDialog
     comment: Targets JetBrains IDE popups and floating windows
-    matching_strategy: Legacy
+    matching_strategy: Equals
 - name: Itch.io
   identifier:
     kind: Exe
@@ -917,7 +918,7 @@
   - kind: Class
     id: SunAwtDialog
     comment: Targets JetBrains IDE popups and detached windows
-    matching_strategy: Legacy
+    matching_strategy: Equals
 - name: QQ
   identifier:
     kind: Exe
@@ -972,7 +973,7 @@
   - kind: Class
     id: SunAwtDialog
     comment: Targets JetBrains IDE popups and floating windows
-    matching_strategy: Legacy
+    matching_strategy: Equals
   - kind: Title
     id: PopupMessageWindow
     comment: Targets JetBrains IDE popups
@@ -1013,7 +1014,7 @@
   - kind: Class
     id: SunAwtDialog
     comment: Targets JetBrains IDE popups and floating windows
-    matching_strategy: Legacy
+    matching_strategy: Equals
 - name: Sandboxie Plus
   identifier:
     kind: Exe
@@ -1303,7 +1304,7 @@
   identifier:
     kind: Class
     id: ConsoleWindowClass
-    matching_strategy: Legacy
+    matching_strategy: Equals
   options:
   - force
 - name: Windows Explorer
