@@ -414,6 +414,13 @@
     id: Chrome_RenderWidgetHostHWND
     comment: Targets a hidden window spawned by GOG Galaxy
     matching_strategy: Legacy
+- name: GitHub Desktop
+  identifier:
+    kind: Exe
+    id: GitHubDesktop.exe
+    matching_strategy: Equals
+  options:
+  - border_overflow
 - name: GoPro Webcam
   identifier:
     kind: Class
@@ -1436,17 +1443,3 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
-- name: todoist
-  identifier:
-    kind: Exe
-    id: Todoist.exe
-    matching_strategy: Equals
-  options:
-  - border_overflow
-- name: GitHub Desktop
-  identifier:
-    kind: Exe
-    id: GitHubDesktop.exe
-    matching_strategy: Equals
-  options:
-  - border_overflow
