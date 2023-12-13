@@ -1436,3 +1436,17 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
+- name: todoist
+  identifier:
+    kind: Exe
+    id: Todoist.exe
+    matching_strategy: Equals
+  options:
+  - border_overflow
+- name: GitHub Desktop
+  identifier:
+    kind: Exe
+    id: GitHubDesktop.exe
+    matching_strategy: Equals
+  options:
+  - border_overflow
