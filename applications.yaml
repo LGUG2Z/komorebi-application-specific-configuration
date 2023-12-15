@@ -1443,3 +1443,10 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
+- name: Morgen
+  identifier:
+    kind: Exe
+    id: Morgen.exe
+    matching_strategy: Equals
+  options:
+  - border_overflow
