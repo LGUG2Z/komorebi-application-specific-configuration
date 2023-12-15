@@ -712,6 +712,13 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: Morgen
+  identifier:
+    kind: Exe
+    id: Morgen.exe
+    matching_strategy: Equals
+  options:
+  - border_overflow
 - name: Mozilla Firefox
   identifier:
     kind: Exe
