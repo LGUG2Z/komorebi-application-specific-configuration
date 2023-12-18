@@ -1450,3 +1450,10 @@
     matching_strategy: Equals
   options:
   - border_overflow
+- name: MuseScore
+  identifier:
+    kind: Exe
+    id: MuseScore.exe
+    matching_strategy: Equal
+  options:
+  - border_overflow
