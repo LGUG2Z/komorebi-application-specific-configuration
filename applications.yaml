@@ -414,6 +414,15 @@
     id: Chrome_RenderWidgetHostHWND
     comment: Targets a hidden window spawned by GOG Galaxy
     matching_strategy: Legacy
+- name: GitHub Credential Manager
+  identifier:
+    kind: Exe
+    id: git-credential-manager.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Exe
+    id: git-credential-manager.exe
+    matching_strategy: Equals
 - name: GitHub Desktop
   identifier:
     kind: Exe
@@ -712,6 +721,13 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: Morgen
+  identifier:
+    kind: Exe
+    id: Morgen.exe
+    matching_strategy: Equals
+  options:
+  - border_overflow
 - name: Mozilla Firefox
   identifier:
     kind: Exe
