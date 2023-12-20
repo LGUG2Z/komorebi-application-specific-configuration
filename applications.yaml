@@ -741,6 +741,13 @@
     id: MozillaTaskbarPreviewClass
     comment: Targets invisible windows spawned by Firefox to show tab previews in the taskbar
     matching_strategy: Legacy
+- name: MuseScore
+  identifier:
+    kind: Exe
+    id: MuseScore.exe
+    matching_strategy: Equals
+  options:
+  - border_overflow
 - name: NVIDIA GeForce Experience
   identifier:
     kind: Exe
@@ -1459,17 +1466,3 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
-- name: Morgen
-  identifier:
-    kind: Exe
-    id: Morgen.exe
-    matching_strategy: Equals
-  options:
-  - border_overflow
-- name: MuseScore
-  identifier:
-    kind: Exe
-    id: MuseScore.exe
-    matching_strategy: Equal
-  options:
-  - border_overflow
