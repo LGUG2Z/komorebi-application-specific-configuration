@@ -44,13 +44,6 @@
     matching_strategy: Legacy
   options:
   - border_overflow
-- name: Microsoft SQL Server Management Studio
-  identifier:
-    kind: Exe
-    id: Ssms.exe
-    matching_strategy: Legacy
-  options:
-  - border_overflow
 - name: Adobe Premiere Pro
   identifier:
     kind: Class
@@ -685,6 +678,13 @@
     id: _WwB
     comment: Targets a hidden window spawned by Microsoft Office applications
     matching_strategy: Legacy
+- name: Microsoft SQL Server Management Studio
+  identifier:
+    kind: Exe
+    id: Ssms.exe
+    matching_strategy: Legacy
+  options:
+  - border_overflow
 - name: Microsoft Teams
   identifier:
     kind: Class
