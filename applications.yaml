@@ -909,6 +909,10 @@
     id: PowerToys.PowerLauncher.exe
     comment: PpowerLauncher popup
     matching_strategy: Equals
+  - kind: Exe
+    id: PowerToys.PowerAccent.exe
+    comment: PowerAccent popup
+    matching_strategy: Equals
 - name: Process Hacker
   identifier:
     kind: Exe
