@@ -682,7 +682,7 @@
   identifier:
     kind: Exe
     id: Ssms.exe
-    matching_strategy: Legacy
+    matching_strategy: Equals
   options:
   - border_overflow
 - name: Microsoft Teams
