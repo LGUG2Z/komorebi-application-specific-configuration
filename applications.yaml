@@ -1230,6 +1230,16 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: Total Commander
+  identifier:
+    kind: Exe
+    id: TotalCMD64.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Class
+    id: TDLG2FILEACTIONMIN
+    comment: Target standard copy window
+    matching_strategy: Equals
 - name: TouchCursor
   identifier:
     kind: Exe
@@ -1476,14 +1486,4 @@
   float_identifiers:
   - kind: Exe
     id: ueli.exe
-    matching_strategy: Equals
-- name: tcmd
-  identifier:
-    kind: Exe
-    id: TotalCMD64.exe
-    matching_strategy: Equals
-  float_identifiers:
-  - kind: Class
-    id: TDLG2FILEACTIONMIN
-    comment: Total Commander standard copy
     matching_strategy: Equals
