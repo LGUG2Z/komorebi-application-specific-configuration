@@ -1230,6 +1230,16 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: Total Commander
+  identifier:
+    kind: Exe
+    id: TotalCMD64.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Class
+    id: TDLG2FILEACTIONMIN
+    comment: Target standard copy window
+    matching_strategy: Equals
 - name: TouchCursor
   identifier:
     kind: Exe
