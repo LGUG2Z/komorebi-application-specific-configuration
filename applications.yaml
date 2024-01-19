@@ -1477,3 +1477,13 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
+- name: tcmd
+  identifier:
+    kind: Exe
+    id: TotalCMD64.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Class
+    id: TDLG2FILEACTIONMIN
+    comment: Total Commander standard copy
+    matching_strategy: Equals
