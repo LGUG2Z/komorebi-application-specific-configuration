@@ -648,7 +648,6 @@
     id: OUTLOOK.EXE
     matching_strategy: Equals
   options:
-  - border_overflow
   - layered
   - tray_and_multi_window
   float_identifiers:
