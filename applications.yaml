@@ -183,6 +183,19 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: CLion
+  identifier:
+    kind: Exe
+    id: clion64.exe
+    matching_strategy: Equals
+  options:
+  - object_name_change
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Class
+    id: SunAwtDialog
+    comment: Targets JetBrains IDE popups and floating windows
+    matching_strategy: Equals
 - name: CopyQ
   identifier:
     kind: Exe
@@ -1326,6 +1339,19 @@
   options:
   - border_overflow
   - tray_and_multi_window
+- name: WebStorm
+  identifier:
+    kind: Exe
+    id: webstorm64.exe
+    matching_strategy: Equals
+  options:
+  - object_name_change
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Class
+    id: SunAwtDialog
+    comment: Targets JetBrains IDE popups and floating windows
+    matching_strategy: Equals
 - name: WebTorrent Desktop
   identifier:
     kind: Exe
