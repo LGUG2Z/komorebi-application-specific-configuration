@@ -148,6 +148,19 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: CLion
+  identifier:
+    kind: Exe
+    id: clion64.exe
+    matching_strategy: Equals
+  options:
+  - object_name_change
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Class
+    id: SunAwtDialog
+    comment: Targets JetBrains IDE popups and floating windows
+    matching_strategy: Equals
 - name: Calculator
   identifier:
     kind: Title
@@ -183,19 +196,6 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
-- name: CLion
-  identifier:
-    kind: Exe
-    id: clion64.exe
-    matching_strategy: Equals
-  options:
-  - object_name_change
-  - tray_and_multi_window
-  float_identifiers:
-  - kind: Class
-    id: SunAwtDialog
-    comment: Targets JetBrains IDE popups and floating windows
-    matching_strategy: Equals
 - name: CopyQ
   identifier:
     kind: Exe
@@ -642,6 +642,14 @@
     id: '#32770'
     comment: Dialog Box
     matching_strategy: Legacy
+- name: Microsoft Edge
+  identifier:
+    kind: Exe
+    id: msedge.exe
+    matching_strategy: Equals
+  options:
+  - tray_and_multi_window
+  - object_name_change
 - name: Microsoft Excel
   identifier:
     kind: Exe
@@ -702,9 +710,14 @@
   identifier:
     kind: Class
     id: TeamsWebView
-    matching_strategy: Legacy
+    matching_strategy: Equals
   options:
   - tray_and_multi_window
+  - object_name_change
+  float_identifiers:
+  - kind: Class
+    id: TeamsWebView
+    matching_strategy: Equals
 - name: Microsoft Teams classic
   identifier:
     kind: Exe
