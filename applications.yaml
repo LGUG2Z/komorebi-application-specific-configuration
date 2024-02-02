@@ -148,6 +148,19 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: CLion
+  identifier:
+    kind: Exe
+    id: clion64.exe
+    matching_strategy: Equals
+  options:
+  - object_name_change
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Class
+    id: SunAwtDialog
+    comment: Targets JetBrains IDE popups and floating windows
+    matching_strategy: Equals
 - name: Calculator
   identifier:
     kind: Title
@@ -183,19 +196,6 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
-- name: CLion
-  identifier:
-    kind: Exe
-    id: clion64.exe
-    matching_strategy: Equals
-  options:
-  - object_name_change
-  - tray_and_multi_window
-  float_identifiers:
-  - kind: Class
-    id: SunAwtDialog
-    comment: Targets JetBrains IDE popups and floating windows
-    matching_strategy: Equals
 - name: CopyQ
   identifier:
     kind: Exe
