@@ -251,6 +251,13 @@
   - border_overflow
   - tray_and_multi_window
   - force
+- name: Discord Bot Client
+  identifier:
+    kind: Exe
+    id: DiscordBotClient.exe
+    matching_strategy: Equals
+  options:
+  - border_overflow
 - name: DiscordCanary
   identifier:
     kind: Exe
