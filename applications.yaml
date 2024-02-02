@@ -647,6 +647,7 @@
     kind: Exe
     id: msedge.exe
     matching_strategy: Equals
+    comment: "Edge does not always send ShowObject when the window is created, so we need to use the object_name_change option to detect the window creation."
   options:
   - tray_and_multi_window
   - object_name_change
@@ -711,13 +712,10 @@
     kind: Class
     id: TeamsWebView
     matching_strategy: Equals
+    comment: "Teams does not always send ShowObject when the window is created, so we need to use the object_name_change option to detect the window creation."
   options:
   - tray_and_multi_window
   - object_name_change
-  float_identifiers:
-  - kind: Class
-    id: TeamsWebView
-    matching_strategy: Equals
 - name: Microsoft Teams classic
   identifier:
     kind: Exe
