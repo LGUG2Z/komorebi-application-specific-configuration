@@ -910,6 +910,13 @@
     matching_strategy: Equals
   options:
   - border_overflow
+- name: Postman
+  identifier:
+    kind: Exe
+    id: Postman.exe
+    matching_strategy: Equals
+  options:
+  - border_overflow
 - name: PowerToys
   identifier:
     kind: Exe
