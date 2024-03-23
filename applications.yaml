@@ -250,6 +250,7 @@
   options:
   - border_overflow
   - tray_and_multi_window
+  - layered
 - name: Discord Bot Client
   identifier:
     kind: Exe
