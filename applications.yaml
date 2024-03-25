@@ -649,6 +649,15 @@
     id: '#32770'
     comment: Dialog Box
     matching_strategy: Legacy
+- name: Microsoft Edge
+  identifier:
+    kind: Exe
+    id: msedge.exe
+    matching_strategy: Equals
+    comment: "Edge does not always send ShowObject when the window is created, so we need to use the object_name_change option to detect the window creation."
+  options:
+  - tray_and_multi_window
+  - object_name_change
 - name: Microsoft Excel
   identifier:
     kind: Exe
@@ -709,9 +718,11 @@
   identifier:
     kind: Class
     id: TeamsWebView
-    matching_strategy: Legacy
+    matching_strategy: Equals
+    comment: "Teams does not always send ShowObject when the window is created, so we need to use the object_name_change option to detect the window creation."
   options:
   - tray_and_multi_window
+  - object_name_change
 - name: Microsoft Teams classic
   identifier:
     kind: Exe
