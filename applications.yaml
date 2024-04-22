@@ -160,6 +160,18 @@
   - kind: Title
     id: Calculator
     matching_strategy: Equals
+- name: Calibre
+  identifier:
+    kind: Exe
+    id: calibre.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Title
+    id: ^[^\|]*$
+    matching_strategy: Regex
+  - kind: Exe
+    id: calibre-parallel.exe
+    matching_strategy: Equals
 - name: Citrix Receiver
   identifier:
     kind: Exe
