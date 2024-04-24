@@ -1310,6 +1310,15 @@
   - kind: Class
     id: android(splash)
     matching_strategy: Legacy
+- name: Windows Update Standalone Installer
+  identifier:
+    kind: Exe
+    id: wusa.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Exe
+    id: wusa.exe
+    matching_strategy: Equals
 - name: WingetUI
   identifier:
     kind: Exe
