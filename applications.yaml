@@ -1231,6 +1231,9 @@
   - kind: Title
     id: Help
     matching_strategy: Equals
+  - kind: Title
+    id: Plugins and extensions
+    matching_strategy: Equals
 - name: VMware Horizon Client
   identifier:
     kind: Exe
