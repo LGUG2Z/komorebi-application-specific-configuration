@@ -1198,6 +1198,36 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: VLC
+  identifier:
+    kind: Exe
+    id: vlc.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Title
+    id: Open URL
+    matching_strategy: Equals
+  - kind: Title
+    id: About
+    matching_strategy: Equals
+  - kind: Title
+    id: Preferences
+    matching_strategy: EndsWith
+  - kind: Title
+    id: Adjustments and Effects
+    matching_strategy: Equals
+  - kind: Title
+    id: Open Media
+    matching_strategy: Equals
+  - kind: Title
+    id: Current Media Information
+    matching_strategy: Equals
+  - kind: Title
+    id: Messages
+    matching_strategy: Equals
+  - kind: Title
+    id: VLC media player updates
+    matching_strategy: Equals
 - name: VMware Horizon Client
   identifier:
     kind: Exe
