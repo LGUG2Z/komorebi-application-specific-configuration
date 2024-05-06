@@ -1228,6 +1228,9 @@
   - kind: Title
     id: VLC media player updates
     matching_strategy: Equals
+  - kind: Title
+    id: Help
+    matching_strategy: Equals
 - name: VMware Horizon Client
   identifier:
     kind: Exe
