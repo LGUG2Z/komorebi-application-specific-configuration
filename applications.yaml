@@ -88,6 +88,15 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: Authy Desktop
+  identifier:
+    kind: Exe
+    id: Authy Desktop.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Exe
+    id: Authy Desktop.exe
+    matching_strategy: Equals
 - name: AutoHotkey
   identifier:
     kind: Exe
