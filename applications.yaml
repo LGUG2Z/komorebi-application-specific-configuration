@@ -590,11 +590,9 @@
   - tray_and_multi_window
 - name: MaxxAudioPro
   identifier:
-    kind: Title
-    id: MaxxAudioPro
+    kind: Exe
+    id: ApplicationFrameHost.exe
     matching_strategy: Equals
-  options:
-  - tray_and_multi_window
   float_identifiers:
   - kind: Title
     id: MaxxAudioPro
