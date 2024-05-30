@@ -1090,6 +1090,13 @@
     kind: Class
     id: vguiPopupWindow
     matching_strategy: Legacy
+  float_identifiers:
+  - - kind: Exe
+      id: steamwebhelper.exe
+      matching_strategy: Equals
+    - kind: Title
+      id: Steam
+      matching_strategy: DoesNotEqual
 - name: Steam Beta
   identifier:
     kind: Class
