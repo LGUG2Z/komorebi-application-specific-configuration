@@ -40,6 +40,17 @@
   - kind: Class
     id: DroverLord - Window Class
     matching_strategy: Equals
+- name: Affinity Designer 2
+  identifier:
+    kind: Title
+    id: Affinity Designer 2
+    matching_strategy: Equals
+  options:
+  - force
+  float_identifiers:
+  - kind: Exe
+    id: Designer.exe
+    matching_strategy: Equals
 - name: Affinity Photo 2
   identifier:
     kind: Title
