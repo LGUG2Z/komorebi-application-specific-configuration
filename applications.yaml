@@ -44,7 +44,7 @@
   identifier:
     kind: Title
     id: Affinity Photo 2
-    matching_strategy: Legacy
+    matching_strategy: Equals
   options:
   - force
   float_identifiers:
