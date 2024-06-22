@@ -40,16 +40,38 @@
   - kind: Class
     id: DroverLord - Window Class
     matching_strategy: Equals
+- name: Affinity Designer 2
+  identifier:
+    kind: Title
+    id: Affinity Designer 2
+    matching_strategy: Equals
+  options:
+  - force
+  float_identifiers:
+  - kind: Exe
+    id: Designer.exe
+    matching_strategy: Equals
 - name: Affinity Photo 2
   identifier:
     kind: Title
     id: Affinity Photo 2
-    matching_strategy: Legacy
+    matching_strategy: Equals
   options:
   - force
   float_identifiers:
   - kind: Exe
     id: Photo.exe
+    matching_strategy: Equals
+- name: Affinity Publisher 2
+  identifier:
+    kind: Title
+    id: Affinity Publisher 2
+    matching_strategy: Equals
+  options:
+  - force
+  float_identifiers:
+  - kind: Exe
+    id: Publisher.exe
     matching_strategy: Equals
 - name: Akiflow
   identifier:
