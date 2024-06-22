@@ -817,6 +817,18 @@
     kind: Exe
     id: PasswareKitForensic.exe
     matching_strategy: Equals
+- name: PhpStorm
+  identifier:
+    kind: Exe
+    id: phpstorm64.exe
+    matching_strategy: Equals
+  options:
+  - object_name_change
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Class
+    id: SunAwtDialog
+    matching_strategy: Equals
 - name: Playnite
   identifier:
     kind: Exe
