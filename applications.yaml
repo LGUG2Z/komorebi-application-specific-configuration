@@ -1453,3 +1453,13 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
+- name: SpaceWalker.Desktop
+  Identifier:
+    kind: Exe
+    id: SpaceWalker.Desktop.exe
+    matching_strategy: Equals
+- name: SpaceWalker.Unity.exe
+  Identifier:
+    kind: Exe
+    id: SpaceWalker.Unity.exe
+    matching_strategy: Equals
