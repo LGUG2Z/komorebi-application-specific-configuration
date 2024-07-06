@@ -1090,6 +1090,16 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: SpaceWalker.Desktop
+  identifier:
+    kind: Exe
+    id: SpaceWalker.Desktop.exe
+    matching_strategy: Equals
+- name: SpaceWalker.Unity.exe
+  identifier:
+    kind: Exe
+    id: SpaceWalker.Unity.exe
+    matching_strategy: Equals
 - name: Spotify
   identifier:
     kind: Exe
@@ -1452,14 +1462,4 @@
   float_identifiers:
   - kind: Exe
     id: ueli.exe
-    matching_strategy: Equals
-- name: SpaceWalker.Desktop
-  Identifier:
-    kind: Exe
-    id: SpaceWalker.Desktop.exe
-    matching_strategy: Equals
-- name: SpaceWalker.Unity.exe
-  Identifier:
-    kind: Exe
-    id: SpaceWalker.Unity.exe
     matching_strategy: Equals
