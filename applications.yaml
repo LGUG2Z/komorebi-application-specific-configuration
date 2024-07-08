@@ -729,6 +729,12 @@
   - kind: Class
     id: MozillaTaskbarPreviewClass
     matching_strategy: Legacy
+  - - kind: Title
+      id: Picture-in-Picture
+      matching_strategy: Equals
+    - kind: Exe
+      id: firefox.exe
+      matching_strategy: Equals
 - name: MuseScore
   identifier:
     kind: Exe
