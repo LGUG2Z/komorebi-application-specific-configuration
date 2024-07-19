@@ -1284,11 +1284,27 @@
     kind: Exe
     id: Code.exe
     matching_strategy: Equals
+  options:
+  - tray_and_multi_window
+  - object_name_change
+  - force
+  float_identifiers:
+    - kind: Class
+      id: Chrome_RenderWidgetHostHWND
+      matching_strategy: Equals
 - name: Visual Studio Code - Insiders
   identifier:
     kind: Exe
     id: Code - Insiders.exe
     matching_strategy: Equals
+  options:
+  - tray_and_multi_window
+  - object_name_change
+  - force
+  float_identifiers:
+    - kind: Class
+      id: Chrome_RenderWidgetHostHWND
+      matching_strategy: Equals
 - name: Voice.ai
   identifier:
     kind: Exe
