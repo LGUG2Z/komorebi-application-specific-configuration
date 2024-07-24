@@ -40,38 +40,16 @@
   - kind: Class
     id: DroverLord - Window Class
     matching_strategy: Equals
-- name: Affinity Designer 2
-  identifier:
-    kind: Title
-    id: Affinity Designer 2
-    matching_strategy: Equals
-  options:
-  - force
-  float_identifiers:
-  - kind: Exe
-    id: Designer.exe
-    matching_strategy: Equals
 - name: Affinity Photo 2
   identifier:
     kind: Title
     id: Affinity Photo 2
-    matching_strategy: Equals
+    matching_strategy: Legacy
   options:
   - force
   float_identifiers:
   - kind: Exe
     id: Photo.exe
-    matching_strategy: Equals
-- name: Affinity Publisher 2
-  identifier:
-    kind: Title
-    id: Affinity Publisher 2
-    matching_strategy: Equals
-  options:
-  - force
-  float_identifiers:
-  - kind: Exe
-    id: Publisher.exe
     matching_strategy: Equals
 - name: Akiflow
   identifier:
@@ -80,6 +58,15 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: Amazon Chime
+  identifier:
+    kind: Exe
+    id: Chime.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Title
+    id: Meeting Controls
+    matching_strategy: EndsWith
 - name: Android Studio
   identifier:
     kind: Exe
@@ -205,6 +192,15 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: Core Temp
+  identifier:
+    kind: Exe
+    id: Core Temp.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Exe
+    id: Core Temp.exe
+    matching_strategy: Equals
 - name: Credential Manager UI Host
   identifier:
     kind: Exe
@@ -729,12 +725,6 @@
   - kind: Class
     id: MozillaTaskbarPreviewClass
     matching_strategy: Legacy
-  - - kind: Title
-      id: Picture-in-Picture
-      matching_strategy: Equals
-    - kind: Exe
-      id: firefox.exe
-      matching_strategy: Equals
 - name: MuseScore
   identifier:
     kind: Exe
@@ -844,18 +834,6 @@
   identifier:
     kind: Exe
     id: PasswareKitForensic.exe
-    matching_strategy: Equals
-- name: PhpStorm
-  identifier:
-    kind: Exe
-    id: phpstorm64.exe
-    matching_strategy: Equals
-  options:
-  - object_name_change
-  - tray_and_multi_window
-  float_identifiers:
-  - kind: Class
-    id: SunAwtDialog
     matching_strategy: Equals
 - name: Playnite
   identifier:
@@ -1118,16 +1096,6 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
-- name: SpaceWalker.Desktop
-  identifier:
-    kind: Exe
-    id: SpaceWalker.Desktop.exe
-    matching_strategy: Equals
-- name: SpaceWalker.Unity.exe
-  identifier:
-    kind: Exe
-    id: SpaceWalker.Unity.exe
-    matching_strategy: Equals
 - name: Spotify
   identifier:
     kind: Exe
