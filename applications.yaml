@@ -80,6 +80,15 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: Amazon Chime
+  identifier:
+    kind: Exe
+    id: Chime.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Title
+    id: Meeting Controls
+    matching_strategy: EndsWith
 - name: Android Studio
   identifier:
     kind: Exe
@@ -205,6 +214,15 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: Core Temp
+  identifier:
+    kind: Exe
+    id: Core Temp.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Exe
+    id: Core Temp.exe
+    matching_strategy: Equals
 - name: Credential Manager UI Host
   identifier:
     kind: Exe
