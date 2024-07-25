@@ -1491,3 +1491,12 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
+- name: DataGrip
+  identifier:
+    kind: Exe
+    id: datagrip64.exe
+  options:
+  - object_name_change
+  - tray_and_multi_window
+
+
