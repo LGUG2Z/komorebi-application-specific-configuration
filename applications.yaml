@@ -246,6 +246,14 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: DataGrip
+  identifier:
+    kind: Exe
+    id: datagrip64.exe
+    matching_strategy: Equals
+  options:
+  - object_name_change
+  - tray_and_multi_window
 - name: Delphi applications
   identifier:
     kind: Class
@@ -1509,12 +1517,3 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
-- name: DataGrip
-  identifier:
-    kind: Exe
-    id: datagrip64.exe
-  options:
-  - object_name_change
-  - tray_and_multi_window
-
-
