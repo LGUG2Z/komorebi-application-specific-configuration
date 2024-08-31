@@ -110,6 +110,24 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: AutoDesk AutoCAD Suite
+  identifier:
+    kind: Exe
+    id: acad.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - - kind: Class
+      id: 'Afx:'
+      matching_strategy: Contains
+    - kind: Exe
+      id: acad.exe
+      matching_strategy: Equals
+  - - kind: Class
+      id: HwndWrapper[DefaultDomain
+      matching_strategy: StartsWith
+    - kind: Exe
+      id: acad.exe
+      matching_strategy: Equals
 - name: AutoHotkey
   identifier:
     kind: Exe
