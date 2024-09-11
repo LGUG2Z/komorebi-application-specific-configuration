@@ -1456,11 +1456,11 @@
 - name: Zebar
   identifier:
     kind: Exe
-    id: Zebar.exe
+    id: zebar.exe
     matching_strategy: Equals
   float_identifiers:
   - kind: Exe
-    id: Zebar.exe
+    id: zebar.exe
     matching_strategy: Equals
 - name: Zoom
   identifier:
