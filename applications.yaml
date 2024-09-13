@@ -1535,3 +1535,17 @@
   - kind: Exe
     id: ueli.exe
     matching_strategy: Equals
+- name: visio
+  identifier:
+    kind: Class
+    id: VISIOA
+    matching_strategy: Equals
+  options:
+  - force
+  float_identifiers:
+  - kind: Class
+    id: VISIOS
+    matching_strategy: Equals
+  - kind: Class
+    id: VISIOQ
+    matching_strategy: Equals
