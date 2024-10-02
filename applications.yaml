@@ -513,6 +513,27 @@
   - kind: Exe
     id: GoogleDriveFS.exe
     matching_strategy: Equals
+- name: Google Earth Pro
+  identifier:
+    kind: Exe
+    id: googleearth.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - - kind: Class
+      id: Qt5QWindowToolSaveBits
+      matching_strategy: Equals
+    - kind: Exe
+      id: googleearth.exe
+      matching_strategy: Equals
+  - - kind: Class
+      id: Qt5QWindowIcon
+      matching_strategy: Equals
+    - kind: Title
+      id: Google Earth Pro
+      matching_strategy: DoesNotEqual
+    - kind: Exe
+      id: googleearth.exe
+      matching_strategy: Equals
 - name: Guitar Rig 7
   identifier:
     kind: Exe
