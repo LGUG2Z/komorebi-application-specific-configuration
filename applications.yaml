@@ -654,6 +654,15 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: MaxxAudioPro
+  identifier:
+    kind: Exe
+    id: ApplicationFrameHost.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Title
+    id: MaxxAudioPro
+    matching_strategy: Equals
 - name: Mica For Everyone
   identifier:
     kind: Exe
