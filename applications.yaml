@@ -1340,6 +1340,36 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: WeChat
+  identifier:
+    kind: Class
+    id: WeChatMainWndForPC
+    matching_strategy: Equals
+  options:
+  - force
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Class
+    id: WeChatLoginWndForPC
+    matching_strategy: Equals
+  - kind: Class
+    id: FileListMgrWnd
+    matching_strategy: Equals
+  - kind: Class
+    id: CWebviewControlHostWnd
+    matching_strategy: Equals
+  - kind: Class
+    id: ChatWnd
+    matching_strategy: Equals
+  - kind: Class
+    id: EmotionTipWnd
+    matching_strategy: Equals
+  - kind: Class
+    id: ChatContactMenu
+    matching_strategy: Equals
+  - kind: Exe
+    id: WeChatAppEx.exe
+    matching_strategy: Equals
 - name: WebStorm
   identifier:
     kind: Exe
@@ -1462,6 +1492,24 @@
   - kind: Exe
     id: zebar.exe
     matching_strategy: Equals
+- name: Zen Browser
+  identifier:
+    kind: Exe
+    id: zen.exe
+    matching_strategy: Equals
+  options:
+  - object_name_change
+  - tray_and_multi_window
+  float_identifiers:
+  - kind: Class
+    id: MozillaTaskbarPreviewClass
+    matching_strategy: Legacy
+  - - kind: Title
+      id: Picture-in-Picture
+      matching_strategy: Equals
+    - kind: Exe
+      id: zen.exe
+      matching_strategy: Equals
 - name: Zoom
   identifier:
     kind: Exe
@@ -1549,21 +1597,3 @@
   - kind: Class
     id: VISIOQ
     matching_strategy: Equals
-- name: Zen Browser
-  identifier:
-    kind: Exe
-    id: zen.exe
-    matching_strategy: Equals
-  options:
-  - object_name_change
-  - tray_and_multi_window
-  float_identifiers:
-  - kind: Class
-    id: MozillaTaskbarPreviewClass
-    matching_strategy: Legacy
-  - - kind: Title
-      id: Picture-in-Picture
-      matching_strategy: Equals
-    - kind: Exe
-      id: zen.exe
-      matching_strategy: Equals

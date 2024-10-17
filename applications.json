@@ -1619,6 +1619,59 @@
       }
     ]
   },
+  "WeChat": {
+    "ignore": [
+      {
+        "kind": "Class",
+        "id": "WeChatLoginWndForPC",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "FileListMgrWnd",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "CWebviewControlHostWnd",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "ChatWnd",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "EmotionTipWnd",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "ChatContactMenu",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Exe",
+        "id": "WeChatAppEx.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "manage": [
+      {
+        "kind": "Class",
+        "id": "WeChatMainWndForPC",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "tray_and_multi_window": [
+      {
+        "kind": "Class",
+        "id": "WeChatMainWndForPC",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "WebStorm": {
     "ignore": [
       {
