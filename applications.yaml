@@ -103,6 +103,14 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: Arc 
+  identifier:
+    kind: Exe
+    id: Arc.exe
+    matching_strategy: Equals
+  float_identifiers:
+  - kind: Title
+    id: Arc picture in picture 
 - name: ArmCord
   identifier:
     kind: Exe
