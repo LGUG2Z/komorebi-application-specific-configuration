@@ -232,6 +232,10 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+  float_identifiers:
+  - kind: Exe
+    id: copyq.exe
+    matching_strategy: Equals  
 - name: Core Temp
   identifier:
     kind: Exe
