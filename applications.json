@@ -304,7 +304,7 @@
     ]
   },
   "CopyQ": {
-    "tray_and_multi_window": [
+    "ignore": [
       {
         "kind": "Exe",
         "id": "copyq.exe",
