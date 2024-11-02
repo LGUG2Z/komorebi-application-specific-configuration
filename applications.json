@@ -1650,6 +1650,18 @@
         "id": "devenv.exe",
         "matching_strategy": "Equals"
       }
+    ],
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "VsDebugConsole.exe",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "WindowsForms10.Window.8.app.0.13fa1bf_r22_ad1",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "Voice.ai": {
