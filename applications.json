@@ -41,6 +41,15 @@
       }
     ]
   },
+  "Arc Browser": {
+    "ignore": [
+      {
+        "kind": "Title",
+        "id": "Arc picture in picture",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Affinity Designer 2": {
     "ignore": [
       {
