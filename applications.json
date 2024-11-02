@@ -1595,6 +1595,31 @@
         "kind": "Class",
         "id": "TDLG2FILEACTIONMIN",
         "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "TFindFile",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "TLister",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "TCHANGETREEDLG",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "TCONNECT",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "TSEARCHTEXT",
+        "matching_strategy": "Equals"
       }
     ]
   },
