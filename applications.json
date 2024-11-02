@@ -636,6 +636,39 @@
       }
     ]
   },
+  "Google Earth Pro": {
+    "ignore": [
+      [
+        {
+          "kind": "Class",
+          "id": "Qt5QWindowToolSaveBits",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Exe",
+          "id": "googleearth.exe",
+          "matching_strategy": "Equals"
+        }
+      ],
+      [
+        {
+          "kind": "Class",
+          "id": "Qt5QWindowIcon",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Google Earth Pro",
+          "matching_strategy": "DoesNotEqual"
+        },
+        {
+          "kind": "Exe",
+          "id": "googleearth.exe",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
   "Guitar Rig 7": {
     "ignore": [
       {
