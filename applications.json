@@ -2083,6 +2083,13 @@
         "id": "zen.exe",
         "matching_strategy": "Equals"
       }
+    ],
+    "slow_application": [
+      {
+        "kind": "Exe",
+        "id": "zen.exe",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "Zoom": {
