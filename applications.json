@@ -2146,6 +2146,20 @@
         "id": "qbittorrent.exe",
         "matching_strategy": "Equals"
       }
+    ],
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "qbittorrent.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Exiting qBittorrent",
+          "matching_strategy": "Equals"
+        }
+      ]
     ]
   },
   "ueli": {
