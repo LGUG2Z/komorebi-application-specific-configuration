@@ -857,6 +857,22 @@
       }
     ]
   },
+  "MaxxAudioPro": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "ApplicationFrameHost.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "MaxxAudioPro",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
   "Microsoft Active Accessibility": {
     "ignore": [
       {
