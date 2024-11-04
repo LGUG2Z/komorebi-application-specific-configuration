@@ -1678,6 +1678,13 @@
         "id": "Unity.exe",
         "matching_strategy": "Equals"
       }
+    ],
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "Unity.exe",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "Unity Hub": {
