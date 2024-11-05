@@ -1027,6 +1027,22 @@
       }
     ]
   },
+  "MobaXterm": {
+    "manage": [
+      [
+        {
+          "kind": "Exe",
+          "id": "MobaXterm.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Class",
+          "id": "TMobaXtermForm",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
   "Modern Flyouts": {
     "tray_and_multi_window": [
       {
