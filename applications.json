@@ -1671,6 +1671,15 @@
       }
     ]
   },
+  "UniGetUI": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "UniGetUI.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Unity Editor": {
     "transparency_ignore": [
       {

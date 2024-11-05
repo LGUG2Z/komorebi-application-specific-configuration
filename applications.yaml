@@ -1288,6 +1288,13 @@
     matching_strategy: Equals
   options:
   - tray_and_multi_window
+- name: UniGetUI
+  identifier:
+    kind: Exe
+    id: UniGetUI.exe
+    matching_strategy: Equals
+  options:
+  - tray_and_multi_window
 - name: Unity Hub
   identifier:
     kind: Exe
