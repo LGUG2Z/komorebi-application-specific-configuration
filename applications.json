@@ -900,16 +900,18 @@
   },
   "Microsoft Edge": {
     "ignore": [
-      {
-        "kind": "Exe",
-        "id": "msedge.exe",
-        "matching_strategy": "Equals"
-      },
-      {
-        "kind": "Class",
-        "id": "Chrome_WidgetWin_2",
-        "matching_strategy": "Equals"
-      }
+      [
+        {
+          "kind": "Exe",
+          "id": "msedge.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Class",
+          "id": "Chrome_WidgetWin_2",
+          "matching_strategy": "Equals"
+        }
+      ]
     ]
   },
   "Microsoft Excel": {
