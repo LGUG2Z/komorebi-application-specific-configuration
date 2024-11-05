@@ -1902,9 +1902,50 @@
       },
       {
         "kind": "Class",
-        "id": "WindowsForms10.Window.8.app.0.13fa1bf_r22_ad1",
+        "id": "WindowsForms10.Window",
+        "matching_strategy": "StartsWith"
+      },
+      {
+        "kind": "Title",
+        "id": "WindowsFormsParkingWindow",
         "matching_strategy": "Equals"
-      }
+      },
+      [
+        {
+          "kind": "Exe",
+          "id": "devenv.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Move files to a new location?",
+          "matching_strategy": "Equals"
+        }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "devenv.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "QuickWatch",
+          "matching_strategy": "Equals"
+        }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "devenv.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": " - Microsoft Visual Studio",
+          "matching_strategy": "DoesNotEndWith"
+        }
+      ]
     ]
   },
   "Voice.ai": {
