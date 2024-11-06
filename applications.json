@@ -771,6 +771,15 @@
       }
     ]
   },
+  "Line": {
+    "floating": [
+      {
+        "kind": "Exe",
+        "id": "LineMediaPlayer.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "LocalSend": {
     "tray_and_multi_window": [
       {
