@@ -1644,6 +1644,15 @@
       }
     ]
   },
+  "TeraCopy": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "TeraCopy.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "TickTick": {
     "tray_and_multi_window": [
       {
