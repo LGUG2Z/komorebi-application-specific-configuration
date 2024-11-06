@@ -1937,11 +1937,18 @@
         "id": "VsDebugConsole.exe",
         "matching_strategy": "Equals"
       },
-      {
-        "kind": "Class",
-        "id": "WindowsForms10.Window",
-        "matching_strategy": "StartsWith"
-      },
+      [
+        {
+          "kind": "Exe",
+          "id": "devenv.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Class",
+          "id": "WindowsForms10.Window",
+          "matching_strategy": "StartsWith"
+        }
+      ],     
       {
         "kind": "Title",
         "id": "WindowsFormsParkingWindow",
