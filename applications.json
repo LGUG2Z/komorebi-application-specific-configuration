@@ -2303,5 +2303,14 @@
         "matching_strategy": "Equals"
       }
     ]
+  },
+  "TeraCopy": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "TeraCopy.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
   }
 }
