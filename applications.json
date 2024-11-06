@@ -1896,6 +1896,32 @@
         "matching_strategy": "Equals"
       }
     ],
+    "floating": [
+      [
+        {
+          "kind": "Exe",
+          "id": "devenv.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "QuickWatch",
+          "matching_strategy": "Equals"
+        }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "devenv.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": " - Microsoft Visual Studio",
+          "matching_strategy": "DoesNotEndWith"
+        }
+      ]
+    ],
     "ignore": [
       {
         "kind": "Exe",
@@ -1926,26 +1952,14 @@
       ],
       [
         {
-          "kind": "Exe",
-          "id": "devenv.exe",
+          "kind": "Title",
+          "id": "Microsoft Visual Studio",
           "matching_strategy": "Equals"
         },
         {
-          "kind": "Title",
-          "id": "QuickWatch",
-          "matching_strategy": "Equals"
-        }
-      ],
-      [
-        {
           "kind": "Exe",
-          "id": "devenv.exe",
+          "id": "ServiceHub.ThreadedWaitDialog.exe",
           "matching_strategy": "Equals"
-        },
-        {
-          "kind": "Title",
-          "id": " - Microsoft Visual Studio",
-          "matching_strategy": "DoesNotEndWith"
         }
       ]
     ]
