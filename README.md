@@ -42,14 +42,33 @@ The v2 schema allows use of the full range of matching strategies and composite
 rules to identify application windows. The full range of application rules that
 can be applied are:
 
-* `ignore` - Rules to ignore specific windows
-* `manage` - Rules to forcibly manage specific windows
-* `floating` - Rules to manage specific windows as floating windows (komorebi v0.1.30+)
-* `transparency_ignore` - Rules to ignore specific windows from the transparency feature
-* `tray_and_multi_window` - Rules to identify applications which minimize to the tray or have multiple windows
-* `layered` - Rules to identify applications which have the `WS_EX_LAYERED` Extended Window Style
-* `object_name_change` - Rules to identify applications which send the `EVENT_OBJECT_NAMECHANGE` event on launch
-* `slow_application` - Rules to identify applications which are slow to send initial event notifications
+- `ignore` - Rules to ignore specific windows
+- `manage` - Rules to forcibly manage specific windows
+- `floating` - Rules to manage specific windows as floating windows (komorebi v0.1.30+)
+- `transparency_ignore` - Rules to ignore specific windows from the transparency feature
+- `tray_and_multi_window` - Rules to identify applications which minimize to the tray or have multiple windows
+- `layered` - Rules to identify applications which have the `WS_EX_LAYERED` Extended Window Style
+- `object_name_change` - Rules to identify applications which send the `EVENT_OBJECT_NAMECHANGE` event on launch
+- `slow_application` - Rules to identify applications which are slow to send initial event notifications
+
+#### Should I use a `floating` rule or an `ignore` rule?
+
+You should use `ignore` rules when:
+
+- Targeting a ghost window
+- Targeting a popup which only exists to be immediately clicked away (confirmations etc.)
+
+You should use `floating` rules when:
+
+- Targeting a popup or a popout window which is interacted with for a while before being closed
+- Targeting a popup or a popout window which is proactively toggled by the user for interaction
+
+Windows targeted with `ignore` rules will not be managed at all by komorebi. In
+practice, this means if you leave these windows open, they will be visible on
+all komorebi workspaces, because komorebi is never touching them.
+
+Windows targeted with `floating` rules will be managed by komorebi and scoped to
+the workspace they are launched on or moved to.
 
 ## Contributing
 
