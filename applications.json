@@ -1957,7 +1957,7 @@
           "id": "WindowsForms10.Window",
           "matching_strategy": "StartsWith"
         }
-      ],     
+      ],
       {
         "kind": "Title",
         "id": "WindowsFormsParkingWindow",
@@ -1975,18 +1975,11 @@
           "matching_strategy": "Equals"
         }
       ],
-      [
-        {
-          "kind": "Title",
-          "id": "Microsoft Visual Studio",
-          "matching_strategy": "Equals"
-        },
-        {
-          "kind": "Exe",
-          "id": "ServiceHub.ThreadedWaitDialog.exe",
-          "matching_strategy": "Equals"
-        }
-      ]
+      {
+        "kind": "Exe",
+        "id": "ServiceHub.ThreadedWaitDialog.exe",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "Voice.ai": {
