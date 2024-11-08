@@ -1949,7 +1949,7 @@
       [
         {
           "kind": "Exe",
-          "id": "devenv.exe",
+          "id": "iisexpresstray.exe",
           "matching_strategy": "Equals"
         },
         {
