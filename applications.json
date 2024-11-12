@@ -2914,5 +2914,14 @@
         "matching_strategy": "Equals"
       }
     ]
+  },
+  "Honkai Star Rail": {
+    "manage": [
+      {
+        "kind": "Exe",
+        "id": "StarRail.Exe",
+        "matching_strategy": "Equals"
+      }
+    ]
   }
 }
