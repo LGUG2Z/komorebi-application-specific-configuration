@@ -527,6 +527,11 @@
     kind: Class
     id: HoneyviewClassX
     matching_strategy: Legacy
+- name: Honkai Star Rail
+  identifier:
+    kind: Exe
+    id: StarRail.exe
+    matching_strategy: Equals
 - name: Houdoku
   identifier:
     kind: Exe
