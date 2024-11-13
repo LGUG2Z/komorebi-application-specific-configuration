@@ -192,6 +192,22 @@
       }
     ]
   },
+  "Balabolka": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "balabolka.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Class",
+          "id": "TBalabolkaForm",
+          "matching_strategy": "DoesNotEqual"
+        }
+      ]
+    ]
+  },
   "Beeper": {
     "tray_and_multi_window": [
       {
