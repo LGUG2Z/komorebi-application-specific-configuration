@@ -1778,6 +1778,20 @@
         "id": "UnrealEditor.exe",
         "matching_strategy": "Equals"
       }
+    ],
+    "floating": [
+      [
+        {
+          "kind": "Exe",
+          "id": "UnrealEditor.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "- Unreal Editor",
+          "matching_strategy": "DoesNotEndWith"
+        }
+      ]
     ]
   },
   "VLC": {
