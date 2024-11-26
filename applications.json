@@ -643,6 +643,29 @@
       }
     ]
   },
+  "GoLand": {
+    "ignore": [
+      {
+        "kind": "Class",
+        "id": "SunAwtDialog",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "goland64.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "object_name_change": [
+      {
+        "kind": "Exe",
+        "id": "goland64.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Golden Dict": {
     "tray_and_multi_window": [
       {
