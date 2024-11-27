@@ -168,6 +168,18 @@
           "id": "acad.exe",
           "matching_strategy": "Equals"
         }
+      ],
+      [
+        {
+          "kind": "Class",
+          "id": "WindowsForms10.Window",
+          "matching_strategy": "StartsWith"
+        },
+        {
+          "kind": "Exe",
+          "id": "acad.exe",
+          "matching_strategy": "Equals"
+        }
       ]
     ]
   },
