@@ -1118,6 +1118,11 @@
     "ignore": [
       {
         "kind": "Class",
+        "id": "MozillaDialogClass",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
         "id": "MozillaTaskbarPreviewClass",
         "matching_strategy": "Legacy"
       },
@@ -2247,6 +2252,11 @@
   },
   "Zen Browser": {
     "ignore": [
+      {
+        "kind": "Class",
+        "id": "MozillaDialogClass",
+        "matching_strategy": "Equals"
+      },
       {
         "kind": "Class",
         "id": "MozillaTaskbarPreviewClass",
