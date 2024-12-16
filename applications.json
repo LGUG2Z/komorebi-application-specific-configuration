@@ -598,6 +598,28 @@
       ]
     ]
   },
+  "GIMP" : {
+    "floating" : [
+      [
+        {
+          "kind": "Exe",
+          "id": "gimp",
+          "matching_strategy": "StartsWith"
+        },
+        {
+          "kind": "Title",
+          "id": "GNU",
+          "matching_strategy": "DoesNotContain"
+        },
+        {
+          "kind": "Title",
+          "id": "GIMP",
+          "matching_strategy": "DoesNotEndWith"
+
+        }
+      ]
+    ]
+  },
   "GOG Galaxy": {
     "ignore": [
       {
