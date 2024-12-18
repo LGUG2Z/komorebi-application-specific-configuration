@@ -1740,6 +1740,15 @@
       }
     ]
   },
+  "Tobit.Team": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Class",
+        "id": "TobitTeamFrame",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Total Commander": {
     "ignore": [
       {
