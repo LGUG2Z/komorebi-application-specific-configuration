@@ -1704,6 +1704,22 @@
       }
     ]
   },
+  "Tabby": {
+    "manage": [
+      [
+        {
+          "kind": "Class",
+          "id": "Chrome_WidgetWin_1",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Exe",
+          "id": "Tabby.exe",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
   "Task Manager": {
     "ignore": [
       {
