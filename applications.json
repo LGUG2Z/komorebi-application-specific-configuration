@@ -844,6 +844,15 @@
       }
     ]
   },
+  "LibreOffice": {
+    "object_name_change": [
+      {
+        "kind": "Exe",
+        "id": "soffice.bin",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Line": {
     "floating": [
       {
