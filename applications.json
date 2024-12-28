@@ -476,6 +476,15 @@
       }
     ]
   },
+  "Electrum": {
+    "ignore": [
+      {
+        "kind": "Title",
+        "id": "Create/Restore wallet",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Element": {
     "tray_and_multi_window": [
       {
@@ -598,8 +607,8 @@
       ]
     ]
   },
-  "GIMP" : {
-    "floating" : [
+  "GIMP": {
+    "floating": [
       [
         {
           "kind": "Exe",
@@ -615,7 +624,6 @@
           "kind": "Title",
           "id": "GIMP",
           "matching_strategy": "DoesNotEndWith"
-
         }
       ]
     ]
