@@ -2269,6 +2269,15 @@
       }
     ]
   },
+  "Windows Terminal": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "WindowsTerminal.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Windows Update Standalone Installer": {
     "ignore": [
       {
