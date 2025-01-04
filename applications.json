@@ -1126,6 +1126,13 @@
         "id": "WINWORD.EXE",
         "matching_strategy": "Equals"
       }
+    ],
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "WINWORD.exe",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "MobaXterm": {
