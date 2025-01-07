@@ -134,6 +134,15 @@
       }
     ]
   },
+  "ApplicationFrameHost": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "ApplicationFrameHost.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "ArmCord": {
     "tray_and_multi_window": [
       {
@@ -1105,6 +1114,22 @@
       }
     ]
   },
+  "Microsoft Terminal Services Client": {
+    // mstsc.exe creates these on Windows 11 when a WSL process is launched
+    // https://github.com/LGUG2Z/komorebi/issues/74
+    "ignore": [
+      {
+        "kind": "Class",
+        "id": "OPContainerClass",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "IHWindowClass",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Microsoft Teams": {
     "tray_and_multi_window": [
       {
@@ -1216,6 +1241,13 @@
       }
     ],
     "object_name_change": [
+      {
+        "kind": "Exe",
+        "id": "firefox.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "slow_application": [
       {
         "kind": "Exe",
         "id": "firefox.exe",
@@ -1686,6 +1718,20 @@
     ]
   },
   "Steam": {
+    "layered": [
+      {
+        "kind": "Exe",
+        "id": "steam.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "steam.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
     "ignore": [
       [
         {
@@ -2268,6 +2314,13 @@
     ]
   },
   "Windows Explorer": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "explorer.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
     "ignore": [
       {
         "kind": "Class",
@@ -2405,6 +2458,15 @@
       {
         "kind": "Exe",
         "id": "Zoom.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
+  "komorebi-bar": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "komorebi-bar.exe",
         "matching_strategy": "Equals"
       }
     ]
