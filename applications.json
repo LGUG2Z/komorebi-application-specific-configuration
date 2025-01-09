@@ -2349,6 +2349,11 @@
     "ignore": [
       {
         "kind": "Class",
+        "id": "NativeHWNDHost",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
         "id": "OperationStatusWindow",
         "matching_strategy": "Legacy"
       },
