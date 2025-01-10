@@ -467,6 +467,15 @@
       }
     ]
   },
+  "EA Desktop": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "EADesktop.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Eagle": {
     "tray_and_multi_window": [
       {
