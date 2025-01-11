@@ -1300,6 +1300,22 @@
       }
     ]
   },
+  "Notion": {
+    "ignore": [
+      {
+        "kind": "Title",
+        "id": "Notion - Command Search",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "Notion.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Notion Enhanced": {
     "tray_and_multi_window": [
       {
