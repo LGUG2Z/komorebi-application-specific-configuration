@@ -47,6 +47,11 @@
         "kind": "Title",
         "id": "Arc picture in picture",
         "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Title",
+        "id": "Arc extension popup",
+        "matching_strategy": "Equals"
       }
     ]
   },
