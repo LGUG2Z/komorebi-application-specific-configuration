@@ -898,6 +898,22 @@
       }
     ]
   },
+  "LibreCAD": {
+    "ignore": [
+      [
+        {
+          "kind": "Title",
+          "id": "LibreCAD",
+          "matching_strategy": "DoesNotStartWith"
+        },
+        {
+          "kind": "Exe",
+          "id": "LibreCAD.exe",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
   "LibreOffice": {
     "object_name_change": [
       {
