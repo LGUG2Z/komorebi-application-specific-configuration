@@ -898,6 +898,22 @@
       }
     ]
   },
+  "Lens": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "Lens.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Loading",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
   "LibreCAD": {
     "ignore": [
       [
