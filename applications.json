@@ -2150,6 +2150,18 @@
           "id": "Plugins and extensions",
           "matching_strategy": "Equals"
         }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "vlc.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Building font cache",
+          "matching_strategy": "Equals"
+        }
       ]
     ]
   },
