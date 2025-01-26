@@ -692,6 +692,15 @@
       }
     ]
   },
+  "Godot Engine": {
+    "object_name_change": [
+      {
+        "kind": "Exe",
+        "id": "Godot_v",
+        "matching_strategy": "StartsWith"
+      }
+    ]
+  },
   "Godot Manager": {
     "manage": [
       {
