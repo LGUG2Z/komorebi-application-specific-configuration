@@ -2672,5 +2672,19 @@
         "matching_strategy": "Equals"
       }
     ]
-  }
+  },
+  "Lively": {
+    "ignore": [
+      {
+        "kind": "Class",
+        "id": "mpv.exe",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "Lively.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
 }
