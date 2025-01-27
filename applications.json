@@ -2672,5 +2672,14 @@
         "matching_strategy": "Equals"
       }
     ]
+  },
+  "Stremio Desktop Community": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "stremio-shell-ng.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
   }
 }
