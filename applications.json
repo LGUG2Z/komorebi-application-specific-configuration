@@ -2681,5 +2681,14 @@
         "matching_strategy": "Equals"
       }
     ]
+  },
+  "Mod Organizer 2": {
+    "ignore": [
+      {
+        "kind": "Title",
+        "id": "Extracting files",
+        "matching_strategy": "Equals"
+      }
+    ]
   }
 }
