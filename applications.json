@@ -2683,6 +2683,13 @@
     ]
   },
   "Mod Organizer 2": {
+    "manage": [
+      {
+        "kind": "Exe",
+        "id": "modorganizer.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
     "ignore": [
       {
         "kind": "Title",
