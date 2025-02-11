@@ -2683,14 +2683,12 @@
     ]
   },
   "Mod Organizer 2": {
-    "manage": [
+    "ignore": [
       {
         "kind": "Exe",
         "id": "modorganizer.exe",
         "matching_strategy": "Equals"
-      }
-    ],
-    "ignore": [
+      },
       {
         "kind": "Title",
         "id": "Extracting files",
