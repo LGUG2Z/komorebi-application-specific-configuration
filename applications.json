@@ -420,6 +420,15 @@
       }
     ]
   },
+  "DesktopMate": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "DesktopMate.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Discord": {
     "tray_and_multi_window": [
       {
