@@ -234,6 +234,15 @@
       ]
     ]
   },
+  "Barrier": {
+    "floating": [
+      {
+        "kind": "Exe",
+        "id": "barrier.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Beeper": {
     "tray_and_multi_window": [
       {
