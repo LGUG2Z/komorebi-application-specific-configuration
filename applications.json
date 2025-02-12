@@ -1525,6 +1525,15 @@
       }
     ]
   },
+  "Prime95": {
+    "floating": [
+      {
+        "Kind": "Exe",
+        "id": "prime95.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Process Hacker": {
     "ignore": [
       {
