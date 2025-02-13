@@ -1188,8 +1188,6 @@
     ]
   },
   "Microsoft Terminal Services Client": {
-    // mstsc.exe creates these on Windows 11 when a WSL process is launched
-    // https://github.com/LGUG2Z/komorebi/issues/74
     "ignore": [
       {
         "kind": "Class",
