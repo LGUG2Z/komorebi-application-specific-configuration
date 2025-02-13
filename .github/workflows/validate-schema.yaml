@@ -1,0 +1,19 @@
+name: Validate JSON Schema
+
+on: [push, pull_request]
+
+jobs:
+  validate-json-schema:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Download Schema
+        run: wget https://raw.githubusercontent.com/LGUG2Z/komorebi/refs/heads/master/schema.asc.json
+
+      - name: Validate JSON
+        uses: GrantBirki/json-yaml-validate@v3
+        with:
+          json_schema: schema.asc.json
+          files: application.json
