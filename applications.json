@@ -1537,7 +1537,7 @@
   "Prime95": {
     "floating": [
       {
-        "Kind": "Exe",
+        "kind": "Exe",
         "id": "prime95.exe",
         "matching_strategy": "Equals"
       }
