@@ -659,7 +659,7 @@
         {
           "kind": "Class",
           "id": "Qt51515QWindowIcon",
-          "matching_strategy": "Legacy"
+          "matching_strategy": "Equals"
         }
       ]
     ]
