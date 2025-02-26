@@ -648,6 +648,22 @@
       ]
     ]
   },
+  "FreeCAD": {
+    "floating": [
+      [
+        {
+          "kind": "Exe",
+          "id": "freecad.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Class",
+          "id": "Qt51515QWindowIcon",
+          "matching_strategy": "Legacy"
+        }
+      ]
+    ]
+  },
   "GIMP": {
     "floating": [
       [
