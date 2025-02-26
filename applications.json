@@ -1884,6 +1884,20 @@
           "matching_strategy": "DoesNotEqual"
         }
       ]
+    ],
+    "floating": [
+      [
+        {
+          "kind": "Exe",
+          "id": "steam.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Class",
+          "id": "BootstrapUpdateUIClass",
+          "matching_strategy": "Equals"
+        }
+      ]
     ]
   },
   "Steam Beta": {
