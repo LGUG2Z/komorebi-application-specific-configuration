@@ -1279,6 +1279,15 @@
       }
     ]
   },
+  "MOTU M-Series": {
+    "floating": [
+      {
+        "kind": "Exe",
+        "id": "MOTUMSeries.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Mozilla Firefox": {
     "ignore": [
       {
