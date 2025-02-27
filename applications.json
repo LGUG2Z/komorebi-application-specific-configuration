@@ -682,6 +682,18 @@
           "id": "GIMP",
           "matching_strategy": "DoesNotEndWith"
         }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "gimp",
+          "matching_strategy": "StartsWith"
+        },
+        {
+          "kind": "Title",
+          "id": "About GIMP",
+          "matching_strategy": "Equals"
+        }
       ]
     ]
   },
