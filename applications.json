@@ -354,6 +354,15 @@
       }
     ]
   },
+  "Clumsy": {
+    "floating": [
+      {
+        "kind": "Exe",
+        "id": "clumsy.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "CopyQ": {
     "ignore": [
       {
