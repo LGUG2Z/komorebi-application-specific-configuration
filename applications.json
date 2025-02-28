@@ -1587,6 +1587,22 @@
       }
     ]
   },
+  "Prism Launcher": {
+    "floating": [
+      [
+        {
+          "kind": "Exe",
+          "id": "prismlauncher.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "- Prism Launcher",
+          "matching_strategy": "Contains"
+        }
+      ]
+    ]
+  },
   "Process Hacker": {
     "ignore": [
       {
