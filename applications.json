@@ -517,6 +517,15 @@
       }
     ]
   },
+  "Eclipse SWT": {
+    "object_name_change": [
+      {
+        "kind": "Class",
+        "id": "SWT_Window",
+        "matching_strategy": "StartsWith"
+      }
+    ]
+  },
   "ElectronMail": {
     "tray_and_multi_window": [
       {
@@ -900,6 +909,15 @@
         "kind": "Exe",
         "id": "itch.exe",
         "matching_strategy": "Equals"
+      }
+    ]
+  },
+  "JavaFX": {
+    "object_name_change": [
+      {
+        "kind": "Class",
+        "id": "GlassWndClass-GlassWindowClass",
+        "matching_strategy": "StartsWith"
       }
     ]
   },
