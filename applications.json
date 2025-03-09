@@ -2188,6 +2188,13 @@
     ]
   },
   "VLC": {
+    "object_name_change": [
+      {
+        "kind": "Exe",
+        "id": "vlc.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
     "ignore": [
       [
         {
