@@ -44,6 +44,15 @@
       }
     ]
   },
+  "Adobe Photshop": {
+    "ignore": [
+      {
+        "kind": "Class",
+        "id": "PSDialogBox",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Adobe Premiere Pro": {
     "ignore": [
       {
