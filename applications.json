@@ -1607,6 +1607,11 @@
         "kind": "Exe",
         "id": "PowerToys.PowerAccent.exe",
         "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Exe",
+        "id": "PowerToys.AdvancedPaste.exe",
+        "matching_strategy": "Equals"
       }
     ]
   },
