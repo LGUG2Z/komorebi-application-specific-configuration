@@ -2255,7 +2255,7 @@
         {
           "kind": "Title",
           "id": "Preferences",
-          "matching_strategy": "Equals"
+          "matching_strategy": "Contains"
         }
       ],
       [
