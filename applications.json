@@ -20,7 +20,19 @@
         "kind": "Class",
         "id": "Vst3PlugWindow",
         "matching_strategy": "Legacy"
-      }
+      },
+      [
+        {
+          "kind": "Class",
+          "id": "Ableton Live Window Class",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Ableton",
+          "matching_strategy": "DoesNotContain"
+        }
+      ]
     ]
   },
   "Adobe Creative Cloud": {
