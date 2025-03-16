@@ -282,6 +282,29 @@
       }
     ]
   },
+  "Blender": {
+    "floating": [
+      [
+        {
+          "kind": "Exe",
+          "id": "blender.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Blender",
+          "matching_strategy": "DoesNotContain"
+        }
+      ]
+    ],
+    "slow_application": [
+      {
+        "kind": "Exe",
+        "id": "blender.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Blitz": {
     "tray_and_multi_window": [
       {
