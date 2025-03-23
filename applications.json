@@ -44,7 +44,7 @@
       }
     ]
   },
-  "Adobe Photshop": {
+  "Adobe Photoshop": {
     "ignore": [
       {
         "kind": "Class",
@@ -1655,6 +1655,11 @@
       {
         "kind": "Exe",
         "id": "PowerToys.AdvancedPaste.exe",
+        "matching_strategy": "Equals"
+      },
+	  {
+        "kind": "Exe",
+        "id": "PowerToys.FileLocksmithUI.exe",
         "matching_strategy": "Equals"
       }
     ]
