@@ -514,6 +514,13 @@
         "id": "DiscordCanary.exe",
         "matching_strategy": "Equals"
       }
+    ],
+    "layered": [
+      {
+        "kind": "Exe",
+        "id": "DiscordCanary.exe",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "DiscordDevelopment": {
@@ -523,10 +530,24 @@
         "id": "DiscordDevelopment.exe",
         "matching_strategy": "Equals"
       }
+    ],
+    "layered": [
+      {
+        "kind": "Exe",
+        "id": "DiscordDevelopment.exe",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "DiscordPTB": {
     "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "DiscordPTB.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "layered": [
       {
         "kind": "Exe",
         "id": "DiscordPTB.exe",
@@ -685,6 +706,22 @@
       }
     ]
   },
+  "f.lux": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "flux.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "flux.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "FFMetrics": {
     "tray_and_multi_window": [
       {
@@ -730,6 +767,29 @@
         {
           "kind": "Class",
           "id": "Qt51515QWindowIcon",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
+  "FreeTube": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "FreeTube.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "FreeTube.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Picture in picture",
           "matching_strategy": "Equals"
         }
       ]
@@ -924,11 +984,69 @@
       }
     ]
   },
+  "Grayjay": {
+    "manage": [
+      [
+        {
+          "kind": "Exe",
+          "id": "dotcefnative.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Grayjay",
+          "matching_strategy": "Equals"
+        }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "dotcefnative.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Grayjay (Sub)",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
   "Guitar Rig 7": {
     "ignore": [
       {
         "kind": "Exe",
         "id": "Guitar Rig 7.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
+  "Hammer": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "hammer.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "hammer.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Class",
+          "id": "Afx:",
+          "matching_strategy": "StartsWith"
+        }
+      ]
+    ],
+    "slow_application": [
+      {
+        "kind": "Exe",
+        "id": "hammer.exe",
         "matching_strategy": "Equals"
       }
     ]
@@ -940,6 +1058,88 @@
         "id": "StarRail.Exe",
         "matching_strategy": "Equals"
       }
+    ]
+  },
+  "HWiNFO64": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "HWiNFO64.EXE",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
+  "HxD": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "HxD.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "HxD.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Class",
+          "id": "TFormHexView",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
+  "IDA": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "ida.exe",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Exe",
+        "id": "ida64.exe",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "floating": [
+      [
+        {
+          "kind": "Exe",
+          "id": "ida.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "IDA -",
+          "matching_strategy": "DoesNotStartWith"
+        },
+        {
+          "kind": "Title",
+          "id": "IDA v",
+          "matching_strategy": "DoesNotStartWith"
+        }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "ida64.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "IDA -",
+          "matching_strategy": "DoesNotStartWith"
+        },
+        {
+          "kind": "Title",
+          "id": "IDA v",
+          "matching_strategy": "DoesNotStartWith"
+        }
+      ]
     ]
   },
   "IntelliJ IDEA": {
@@ -1076,6 +1276,15 @@
       ]
     ]
   },
+  "Libre Hardware Monitor": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "LibreHardwareMonitor.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "LibreCAD": {
     "ignore": [
       [
@@ -1158,6 +1367,15 @@
       {
         "kind": "Exe",
         "id": "LogiTune.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
+  "MacType": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "MacTray.exe",
         "matching_strategy": "Equals"
       }
     ]
@@ -1656,6 +1874,15 @@
       {
         "kind": "Exe",
         "id": "Paradox Launcher.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
+  "PAYDAY 2": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "payday2_win32_release.exe",
         "matching_strategy": "Equals"
       }
     ]
@@ -2343,6 +2570,15 @@
       }
     ]
   },
+  "Unity": {
+    "ignore": [
+      {
+        "kind": "Class",
+        "id": "UnityWndClass",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Unity Editor": {
     "transparency_ignore": [
       {
@@ -2389,6 +2625,20 @@
           "matching_strategy": "DoesNotEndWith"
         }
       ]
+    ]
+  },
+  "Unreal Engine": {
+    "ignore": [
+      {
+        "kind": "Class",
+        "id": "UnrealWindow",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Title",
+        "id": "SplashScreenGuard",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "visio": {
@@ -2739,6 +2989,15 @@
       {
         "kind": "Class",
         "id": "WeChatMainWndForPC",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
+  "WinCompose": {
+    "tray_and_multi_window": [
+      {
+        "kind": "Exe",
+        "id": "wincompose.exe",
         "matching_strategy": "Equals"
       }
     ]
