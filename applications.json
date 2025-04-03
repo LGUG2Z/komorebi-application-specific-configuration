@@ -2085,6 +2085,15 @@
       ]
     ]
   },
+  "TablePlus": {
+    "object_name_change": [
+      {
+        "kind": "Exe",
+        "id": "TablePlus.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Task Manager": {
     "ignore": [
       {
@@ -2895,6 +2904,15 @@
           "matching_strategy": "Equals"
         }
       ]
+    ]
+  },
+  "Browser Tamer": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "bt.exe",
+        "matching_strategy": "Equals"
+      }
     ]
   }
 }
