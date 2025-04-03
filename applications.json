@@ -2085,6 +2085,15 @@
       ]
     ]
   },
+  "TablePlus": {
+    "object_name_change": [
+      {
+        "kind": "Exe",
+        "id": "TablePlus.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Task Manager": {
     "ignore": [
       {
