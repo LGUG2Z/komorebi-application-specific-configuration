@@ -2905,5 +2905,14 @@
         }
       ]
     ]
+  },
+  "Browser Tamer": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "bt.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
   }
 }
