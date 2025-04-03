@@ -1657,7 +1657,7 @@
         "id": "PowerToys.AdvancedPaste.exe",
         "matching_strategy": "Equals"
       },
-	  {
+      {
         "kind": "Exe",
         "id": "PowerToys.FileLocksmithUI.exe",
         "matching_strategy": "Equals"
@@ -2078,6 +2078,15 @@
           "matching_strategy": "Equals"
         }
       ]
+    ]
+  },
+  "TablePlus": {
+    "object_name_change": [
+      {
+        "kind": "Exe",
+        "id": "TablePlus.exe",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "Task Manager": {
