@@ -1657,9 +1657,14 @@
         "id": "PowerToys.AdvancedPaste.exe",
         "matching_strategy": "Equals"
       },
-	  {
+      {
         "kind": "Exe",
         "id": "PowerToys.FileLocksmithUI.exe",
+        "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Exe",
+        "id": "Microsoft.CmdPal.UI.exe",
         "matching_strategy": "Equals"
       }
     ]
