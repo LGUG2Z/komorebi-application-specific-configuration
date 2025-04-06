@@ -76,6 +76,10 @@ If you would like to propose a new application configuration rule for
 consideration, please open an issue with the rules you are proposing in a code
 block rather than a PR.
 
+When submitting a PR, make sure you have `jq` and `just` installed, and run
+`just sort` to ensure that all entries in `applications.json` are sorted
+correctly.
+
 ## FAQs
 
 ### I am a new komorebi user and I want to add different rules for various applications
