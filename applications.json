@@ -2098,6 +2098,34 @@
       ]
     ]
   },
+  "QGIS": {
+    "floating": [
+      [
+        {
+          "kind": "Exe",
+          "id": "qgis-bin.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "QGIS",
+          "matching_strategy": "DoesNotContain"
+        }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "qgis-ltr-bin.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "QGIS",
+          "matching_strategy": "DoesNotContain"
+        }
+      ]
+    ]
+  },
   "QQ": {
     "ignore": [
       {
