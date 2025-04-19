@@ -3164,6 +3164,15 @@
       }
     ]
   },
+  "Zed": {
+    "layered": [
+      {
+        "kind": "Exe",
+        "id": "zed.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Zen Browser": {
     "ignore": [
       {
