@@ -3176,7 +3176,7 @@
     ]
   },
   "Zed": {
-    "layeredlayered": [
+    "layered": [
       {
         "kind": "Exe",
         "id": "zed.exe",
