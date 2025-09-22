@@ -16,6 +16,15 @@
       ]
     ]
   },
+  "System Settings": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "System Settings",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Zen": {
     "ignore": [
       [
