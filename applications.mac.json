@@ -1,0 +1,35 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.asc.json",
+  "RustRover": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "RustRover",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "–",
+          "matching_strategy": "DoesNotContain"
+        }
+      ]
+    ]
+  },
+  "Zen": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "Zen",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "File Upload",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  }
+}
