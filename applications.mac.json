@@ -16,6 +16,15 @@
       ]
     ]
   },
+  "Installer": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "Installer",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "System Settings": {
     "ignore": [
       {
