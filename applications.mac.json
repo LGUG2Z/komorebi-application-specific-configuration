@@ -1,5 +1,14 @@
 {
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.asc.json",
+  "Installer": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "Installer",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "RustRover": {
     "ignore": [
       [
@@ -16,11 +25,11 @@
       ]
     ]
   },
-  "Installer": {
+  "SecurityAgent": {
     "ignore": [
       {
         "kind": "Exe",
-        "id": "Installer",
+        "id": "SecurityAgent",
         "matching_strategy": "Equals"
       }
     ]
