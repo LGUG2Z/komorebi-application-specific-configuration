@@ -3230,5 +3230,23 @@
         "matching_strategy": "Equals"
       }
     ]
+  },
+  "Pixelorama": {
+    "manage": [
+      {
+        "kind": "Exe",
+        "id": "Pixelorama.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
+  "Magnifier": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "Magnify.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
   }
 }
