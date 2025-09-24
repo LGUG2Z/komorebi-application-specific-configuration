@@ -1,5 +1,21 @@
 {
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.asc.json",
+  "Finder": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "Finder",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Info",
+          "matching_strategy": "EndsWith"
+        }
+      ]
+    ]
+  },
   "Installer": {
     "ignore": [
       {
