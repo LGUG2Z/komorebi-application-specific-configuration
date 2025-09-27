@@ -35,6 +35,18 @@
           "id": "Info",
           "matching_strategy": "EndsWith"
         }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "Finder",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Copy",
+          "matching_strategy": "Equals"
+        }
       ]
     ]
   },
