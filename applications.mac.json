@@ -1,5 +1,27 @@
 {
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.asc.json",
+  "Archive Utility": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "Archive Utility",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
+  "Control Center": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "Control Center",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
   "Finder": {
     "ignore": [
       [
@@ -71,6 +93,18 @@
           "kind": "Title",
           "id": "File Upload",
           "matching_strategy": "Equals"
+        }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "Zen",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Enter name of file to save to",
+          "matching_strategy": "StartsWith"
         }
       ]
     ]
