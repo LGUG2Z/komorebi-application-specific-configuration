@@ -118,6 +118,18 @@
           "id": "Enter name of file to save to",
           "matching_strategy": "StartsWith"
         }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "Zen",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Picture-in-Picture",
+          "matching_strategy": "Equals"
+        }
       ]
     ]
   }
