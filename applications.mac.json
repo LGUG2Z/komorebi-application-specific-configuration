@@ -84,6 +84,15 @@
       }
     ]
   },
+  "System Information": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "System Information",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "System Settings": {
     "ignore": [
       {
