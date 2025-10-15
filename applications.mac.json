@@ -102,6 +102,34 @@
       }
     ]
   },
+  "Tailscale": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "Tailscale",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Software Update",
+          "matching_strategy": "Equals"
+        }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "Tailscale",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Updating Tailscale",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
   "Zen": {
     "ignore": [
       [
