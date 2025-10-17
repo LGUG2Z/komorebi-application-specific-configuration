@@ -1496,6 +1496,15 @@
       }
     ]
   },
+  "Microsoft IME Pad": {
+    "floating": [
+      {
+        "kind": "Exe",
+        "id": "IMEPADSV.EXE",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Microsoft Outlook": {
     "ignore": [
       {
@@ -1563,7 +1572,7 @@
           "matching_strategy": "StartsWith"
         }
       ]
-     ]
+    ]
   },
   "Microsoft Teams": {
     "tray_and_multi_window": [
