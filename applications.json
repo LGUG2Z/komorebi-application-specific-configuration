@@ -273,6 +273,15 @@
       }
     ]
   },
+  "Battlestate Games Launcher": {
+    "floating": [
+      {
+        "kind": "Exe",
+        "id": "BsgLauncher.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Beeper": {
     "tray_and_multi_window": [
       {
