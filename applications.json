@@ -1464,6 +1464,15 @@
       ]
     ]
   },
+  "MicMute": {
+    "floating": [
+      {
+        "kind": "Exe",
+        "id": "MicMute.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Microsoft Active Accessibility": {
     "ignore": [
       {
