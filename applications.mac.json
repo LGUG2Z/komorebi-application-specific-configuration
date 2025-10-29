@@ -59,6 +59,15 @@
       }
     ]
   },
+  "MobileDeviceUpdater": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "MobileDeviceUpdater",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "RustRover": {
     "ignore": [
       [
