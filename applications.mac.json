@@ -73,6 +73,18 @@
       [
         {
           "kind": "Exe",
+          "id": "java",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Update",
+          "matching_strategy": "Equals"
+        }
+      ],
+      [
+        {
+          "kind": "Exe",
           "id": "RustRover",
           "matching_strategy": "Equals"
         },
