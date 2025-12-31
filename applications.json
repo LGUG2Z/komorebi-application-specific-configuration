@@ -486,6 +486,15 @@
       }
     ]
   },
+  "Dell Display Manager": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "DDM.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Delphi applications": {
     "ignore": [
       {
