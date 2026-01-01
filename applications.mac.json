@@ -151,6 +151,22 @@
       ]
     ]
   },
+  "Zed": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "Zed",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Open",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
   "Zen": {
     "ignore": [
       [
