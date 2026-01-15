@@ -11,15 +11,34 @@
       ]
     ]
   },
-  "Control Center": {
+  "Cloudflare Warp": {
     "ignore": [
+      {
+        "kind": "Exe",
+        "id": "Updater",
+        "matching_strategy": "Equals"
+      },
       [
         {
           "kind": "Exe",
-          "id": "Control Center",
+          "id": "Cloudflare WARP",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Updating Cloudflare WARP",
           "matching_strategy": "Equals"
         }
       ]
+    ]
+  },
+  "Control Center": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "Control Center",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "Finder": {
