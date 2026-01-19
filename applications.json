@@ -2767,7 +2767,7 @@
         {
           "kind": "Title",
           "id": " - Microsoft Visual Studio",
-          "matching_strategy": "DoesNotEndWith"
+          "matching_strategy": "DoesNotContain"
         }
       ]
     ],
