@@ -41,6 +41,22 @@
       }
     ]
   },
+  "Discord": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "Discord",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "DiscordUpdater",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ]
+  },
   "Finder": {
     "ignore": [
       [
