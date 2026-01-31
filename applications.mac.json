@@ -103,6 +103,15 @@
       }
     ]
   },
+  "Photos": {
+    "titleless": [
+      {
+        "kind": "Exe",
+        "id": "Photos",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "RustRover": {
     "ignore": [
       [
