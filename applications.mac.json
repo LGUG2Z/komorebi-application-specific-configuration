@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.asc.json",
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi-for-mac/master/schema.asc.json",
   "Archive Utility": {
     "ignore": [
       [
@@ -58,6 +58,13 @@
     ]
   },
   "Finder": {
+    "tabbed": [
+      {
+        "kind": "Exe",
+        "id": "Finder",
+        "matching_strategy": "Equals"
+      }
+    ],
     "ignore": [
       [
         {
@@ -83,6 +90,22 @@
           "matching_strategy": "Equals"
         }
       ]
+    ]
+  },
+  "Ghostty": {
+    "tabbed": [
+      {
+        "kind": "Exe",
+        "id": "Ghostty",
+        "matching_strategy": "Equals"
+      }
+    ],
+    "titleless": [
+      {
+        "kind": "Exe",
+        "id": "Ghostty",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "Installer": {
