@@ -126,6 +126,15 @@
       }
     ]
   },
+  "Notification Center": {
+    "ignore": [
+      {
+        "kind": "Exe",
+        "id": "Notification Center",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "Photos": {
     "titleless": [
       {
