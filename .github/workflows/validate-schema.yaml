@@ -9,11 +9,22 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Download Schema
+      - name: Download Schema for Windows
         run: wget https://raw.githubusercontent.com/LGUG2Z/komorebi/refs/heads/master/schema.asc.json
 
       - name: Validate JSON
-        uses: GrantBirki/json-yaml-validate@v3
+        uses: GrantBirki/json-yaml-validate@v4
         with:
+          json_schema_version: "draft-2020-12"
           json_schema: schema.asc.json
-          files: application.json
+          files: applications.json
+
+      - name: Download Schema for macOS
+        run: wget https://raw.githubusercontent.com/LGUG2Z/komorebi-for-mac/refs/heads/master/schema.asc.json
+
+      - name: Validate JSON
+        uses: GrantBirki/json-yaml-validate@v4
+        with:
+          json_schema_version: "draft-2020-12"
+          json_schema: schema.asc.json
+          files: applications.mac.json
