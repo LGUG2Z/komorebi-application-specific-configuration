@@ -1608,13 +1608,6 @@
         "id": "TeamsWebView",
         "matching_strategy": "Equals"
       }
-    ],
-    "object_name_change": [
-      {
-        "kind": "Class",
-        "id": "TeamsWebView",
-        "matching_strategy": "Equals"
-      }
     ]
   },
   "Microsoft Teams classic": {
