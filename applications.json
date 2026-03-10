@@ -111,6 +111,20 @@
     ]
   },
   "Akiflow": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "Akiflow.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "Akiflow - Cli",
+          "matching_strategy": "Equals"
+        }
+      ]
+    ],
     "tray_and_multi_window": [
       {
         "kind": "Exe",
