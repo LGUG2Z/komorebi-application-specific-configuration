@@ -144,6 +144,25 @@
         "id": "anki.exe",
         "matching_strategy": "Equals"
       }
+    ],
+    "floating": [
+      [
+        {
+          "kind": "Class",
+          "id": "Qt691QWindowIcon",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Exe",
+          "id": "pythonw.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "- Anki",
+          "matching_strategy": "DoesNotEndWith"
+        }
+      ]
     ]
   },
   "ApplicationFrameHost": {
