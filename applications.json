@@ -2767,6 +2767,18 @@
           "id": " - Microsoft Visual Studio",
           "matching_strategy": "DoesNotContain"
         }
+      ],
+      [
+        {
+          "kind": "Exe",
+          "id": "DevHub.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Class",
+          "id": "ThreadedWaitDialog",
+          "matching_strategy": "Equals"
+        }
       ]
     ],
     "ignore": [
