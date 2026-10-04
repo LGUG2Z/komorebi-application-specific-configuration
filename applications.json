@@ -3128,6 +3128,11 @@
         "kind": "Exe",
         "id": "msiexec.exe",
         "matching_strategy": "Equals"
+      },
+      {
+        "kind": "Class",
+        "id": "MsiDialogCloseClass",
+        "matching_strategy": "Equals"
       }
     ]
   },
