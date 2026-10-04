@@ -1837,6 +1837,15 @@
       }
     ]
   },
+  "Notesnook": {
+    "manage": [
+      {
+        "kind": "Exe",
+        "id": "Notesnook.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
   "NZXT CAM": {
     "tray_and_multi_window": [
       {
