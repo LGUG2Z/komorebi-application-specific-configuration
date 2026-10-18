@@ -141,20 +141,15 @@
     "tray_and_multi_window": [
       {
         "kind": "Exe",
-        "id": "anki.exe",
+        "id": "Anki.exe",
         "matching_strategy": "Equals"
       }
     ],
     "floating": [
       [
         {
-          "kind": "Class",
-          "id": "Qt691QWindowIcon",
-          "matching_strategy": "Equals"
-        },
-        {
           "kind": "Exe",
-          "id": "pythonw.exe",
+          "id": "Anki.exe",
           "matching_strategy": "Equals"
         },
         {
